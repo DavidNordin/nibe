@@ -6815,7 +6815,8 @@
     "max": 30000.0,
     "default": 0.0,
     "name": "cool-degree-minutes-44266",
-    "write": true
+    "write": true,
+    "unit": "DM"
   },
   "44267": {
     "title": "Calc. Cooling Supply S4",
@@ -7395,7 +7396,13 @@
     "title": "State SG Ready",
     "size": "u8",
     "factor": 1,
-    "name": "state-sg-ready-44874"
+    "name": "state-sg-ready-44874",
+    "mappings": {
+      "10": "Blocking",
+      "20": "Normal",
+      "30": "Low Price",
+      "40": "Overcapacity"
+    }
   },
   "44878": {
     "title": "SG Ready input A",

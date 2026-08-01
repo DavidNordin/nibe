@@ -392,6 +392,23 @@
     }
   },
   {
+    "description": "SG Ready Operating Mode - S1155/S1255",
+    "files": [
+      "s1155_s1255.json",
+      "s1156_s1256.json"
+    ],
+    "data": {
+      "31912": {
+        "mappings": {
+          "10": "Normal Price",
+          "20": "High Price",
+          "30": "Low Price",
+          "40": "Free Electricity"
+        }
+      }
+    }
+  },
+  {
     "description": "M12676EN-1 - SMOS40 Mappings",
     "files": ["smos40.json"],
     "data": {
@@ -464,6 +481,25 @@
           "0": "Off",
           "1": "Active",
           "2": "Passive"
+        }
+      }
+    }
+  },
+  {
+    "description": "Alarm class 1 mapping - S series",
+    "files": [
+      "s320_s325.json",
+      "s330_s332.json",
+      "s735.json",
+      "s1155_s1255.json",
+      "s1156_s1256.json",
+      "s2125.json",
+      "smos40.json"],
+    "data": {
+      "32196": {
+        "mappings": {
+          "0": "No alarm",
+          "1": "Alarm"
         }
       }
     }
@@ -620,6 +656,61 @@
       "40016": {
         "min": -400,
         "max": 800
+      }
+    }
+  },
+  {
+    "description": "Fix units for current power consumption",
+    "files": [
+      "s320_s325.json",
+      "s330_s332.json",
+      "s735.json",
+      "s1155_s1255.json",
+      "s1156_s1256.json",
+      "s2125.json",
+      "vvms320_vvms325.json",
+      "vvms500.json"
+    ],
+    "data": {
+      "32306": {
+        "unit": "kW"
+      },
+      "32409": {
+        "unit": "kW"
+      }
+    }
+  },
+  {
+    "description": "Correction for Cool Degree Minutes unit",
+    "files": [
+      "f1145_f1245.json",
+      "f1155_f1255.json",
+      "f1345.json",
+      "f1355.json",
+      "smo20.json",
+      "smo40.json",
+      "vvm225_vvm320_vvm325.json",
+      "vvm310_vvm500.json"
+    ],
+    "data": {
+      "44266": {
+        "unit": "DM"
+      }
+    }
+  },
+   {
+    "description": "SG Ready Operating Mode - F1145/F1245",
+    "files": [
+      "f1145_f1245.json"
+    ],
+    "data": {
+      "44874": {
+        "mappings": {
+          "10": "Blocking",
+          "20": "Normal",
+          "30": "Low Price",
+          "40": "Overcapacity"
+        }
       }
     }
   }

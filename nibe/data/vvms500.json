@@ -55,34 +55,6 @@
     "size": "s16",
     "name": "hot-water-charging-bt6-30010"
   },
-  "30020": {
-    "title": "Exh. air (AZ30-BT20)",
-    "factor": 10,
-    "unit": "\u00b0C",
-    "size": "s16",
-    "name": "exh-air-az30-bt20-30020"
-  },
-  "30021": {
-    "title": "Extr. air (AZ30-BT21)",
-    "factor": 10,
-    "unit": "\u00b0C",
-    "size": "s16",
-    "name": "extr-air-az30-bt21-30021"
-  },
-  "30027": {
-    "title": "Roomsensor 1-1",
-    "factor": 10,
-    "unit": "\u00b0C",
-    "size": "s16",
-    "name": "roomsensor-1-1-30027"
-  },
-  "30028": {
-    "title": "Pool (BT51)",
-    "factor": 10,
-    "unit": "\u00b0C",
-    "size": "s16",
-    "name": "pool-bt51-30028"
-  },
   "30037": {
     "title": "Temperature limiter (EB100-FD1)",
     "factor": 1,
@@ -106,7 +78,7 @@
   "30041": {
     "title": "Flow sensor (BF1)",
     "factor": 10,
-    "unit": "l/m",
+    "unit": "l/min",
     "size": "s16",
     "name": "flow-sensor-bf1-30041"
   },
@@ -115,76 +87,6 @@
     "factor": 1,
     "size": "s16",
     "name": "electrical-anode-eb100-fr1-30042"
-  },
-  "30043": {
-    "title": "Supp. air (AZ30-BT22)",
-    "factor": 10,
-    "unit": "\u00b0C",
-    "size": "s16",
-    "name": "supp-air-az30-bt22-30043"
-  },
-  "30047": {
-    "title": "Current (BE3)",
-    "factor": 10,
-    "unit": "A",
-    "size": "u32",
-    "name": "current-be3-30047"
-  },
-  "30049": {
-    "title": "Current (BE2)",
-    "factor": 10,
-    "unit": "A",
-    "size": "u32",
-    "name": "current-be2-30049"
-  },
-  "30051": {
-    "title": "Current (BE1)",
-    "factor": 10,
-    "unit": "A",
-    "size": "u32",
-    "name": "current-be1-30051"
-  },
-  "30061": {
-    "title": "Exh. air (AZ33-BT20)",
-    "factor": 10,
-    "unit": "\u00b0C",
-    "size": "s16",
-    "name": "exh-air-az33-bt20-30061"
-  },
-  "30062": {
-    "title": "Exh. air (AZ32-BT20)",
-    "factor": 10,
-    "unit": "\u00b0C",
-    "size": "s16",
-    "name": "exh-air-az32-bt20-30062"
-  },
-  "30063": {
-    "title": "Exh. air (AZ31-BT20)",
-    "factor": 10,
-    "unit": "\u00b0C",
-    "size": "s16",
-    "name": "exh-air-az31-bt20-30063"
-  },
-  "30064": {
-    "title": "Extract air (AZ33-BT21)",
-    "factor": 10,
-    "unit": "\u00b0C",
-    "size": "s16",
-    "name": "extract-air-az33-bt21-30064"
-  },
-  "30065": {
-    "title": "Extract air (AZ32-BT21)",
-    "factor": 10,
-    "unit": "\u00b0C",
-    "size": "s16",
-    "name": "extract-air-az32-bt21-30065"
-  },
-  "30066": {
-    "title": "Extract air (AZ31-BT21)",
-    "factor": 10,
-    "unit": "\u00b0C",
-    "size": "s16",
-    "name": "extract-air-az31-bt21-30066"
   },
   "30073": {
     "title": "Additional heat (BT63)",
@@ -227,6 +129,13 @@
     "unit": "\u00b0C",
     "size": "s16",
     "name": "outgoing-hot-water-bt70-30088"
+  },
+  "30090": {
+    "title": "Solar sensor, pool (BT51)",
+    "factor": 10,
+    "unit": "\u00b0C",
+    "size": "s16",
+    "name": "solar-sensor-pool-bt51-30090"
   },
   "30095": {
     "title": "Supply line (EP47-BT2)",
@@ -284,13 +193,6 @@
     "size": "s16",
     "name": "return-line-ep44-bt3-30102"
   },
-  "30108": {
-    "title": "Outd temperature (AZ30-BT23)",
-    "factor": 10,
-    "unit": "\u00b0C",
-    "size": "s16",
-    "name": "outd-temperature-az30-bt23-30108"
-  },
   "30110": {
     "title": "Room average temp. clim. system 8 (BT50)",
     "factor": 10,
@@ -346,13 +248,6 @@
     "unit": "\u00b0C",
     "size": "s16",
     "name": "room-average-temp-clim-system-1-bt50-30117"
-  },
-  "30120": {
-    "title": "External cooling supply temperature (BT25)",
-    "factor": 10,
-    "unit": "\u00b0C",
-    "size": "s16",
-    "name": "external-cooling-supply-temperature-bt25-30120"
   },
   "30130": {
     "title": "Oper. mode shunt climate system 8",
@@ -410,18 +305,6 @@
     "unit": "Hz",
     "size": "u16",
     "name": "max-compressor-frequency-heating-30142"
-  },
-  "30143": {
-    "title": "Inverter alarm code",
-    "factor": 1,
-    "size": "u16",
-    "name": "inverter-alarm-code-30143"
-  },
-  "30144": {
-    "title": "Inverter alarm code",
-    "factor": 1,
-    "size": "u16",
-    "name": "inverter-alarm-code-30144"
   },
   "30152": {
     "title": "External adjustment climate system 8",
@@ -485,25 +368,79 @@
     "size": "s16",
     "name": "hot-water-comfort-heater-bt83-30176"
   },
+  "30252": {
+    "title": "Compressor, total time pool, heat pump 2 (EP15)",
+    "factor": 1,
+    "unit": "h",
+    "size": "u32",
+    "name": "compressor-total-time-pool-heat-pump-2-ep15-30252"
+  },
+  "30254": {
+    "title": "Compressor, total time pool 2, heat pump 2 (EP15)",
+    "factor": 1,
+    "unit": "h",
+    "size": "u32",
+    "name": "compressor-total-time-pool-2-heat-pump-2-ep15-30254"
+  },
+  "30258": {
+    "title": "Compressor, total time pool, heat pump 2 (EP14)",
+    "factor": 1,
+    "unit": "h",
+    "size": "u32",
+    "min": 0.0,
+    "max": 2147483647.0,
+    "default": 0.0,
+    "name": "compressor-total-time-pool-heat-pump-2-ep14-30258"
+  },
+  "30260": {
+    "title": "Compressor, total time pool 2, heat pump 2 (EP14)",
+    "factor": 1,
+    "unit": "h",
+    "size": "u32",
+    "min": 0.0,
+    "max": 2147483647.0,
+    "default": 0.0,
+    "name": "compressor-total-time-pool-2-heat-pump-2-ep14-30260"
+  },
   "30268": {
     "title": "Compressor, total time cooling, heat pump 1 (EP14)",
     "factor": 1,
     "unit": "h",
     "size": "u32",
-    "min": 0.0,
+    "min": -2147483648.0,
     "max": 2147483647.0,
     "default": 0.0,
     "name": "compressor-total-time-cooling-heat-pump-1-ep14-30268"
   },
+  "30270": {
+    "title": "Compressor, total time pool, heat pump 1 (EP14)",
+    "factor": 1,
+    "unit": "h",
+    "size": "u32",
+    "min": -2147483648.0,
+    "max": 2147483647.0,
+    "default": 0.0,
+    "name": "compressor-total-time-pool-heat-pump-1-ep14-30270"
+  },
+  "30272": {
+    "title": "Compressor, total time pool 2, heat pump 1 (EP14)",
+    "factor": 1,
+    "unit": "h",
+    "size": "u32",
+    "min": -2147483648.0,
+    "max": 2147483647.0,
+    "default": 0.0,
+    "name": "compressor-total-time-pool-2-heat-pump-1-ep14-30272"
+  },
   "30280": {
-    "title": "Compressor, total time cooling, main unit (EP14)",
+    "title": "Total run time compressor cooling",
     "factor": 1,
     "unit": "h",
     "size": "u32",
     "min": 0.0,
     "max": 2147483647.0,
     "default": 0.0,
-    "name": "compressor-total-time-cooling-main-unit-ep14-30280"
+    "name": "total-run-time-compressor-cooling-30280"
   },
   "30282": {
     "title": "Compressor, total time pool, main unit (EP14)",
@@ -545,32 +482,6 @@
     "size": "u8",
     "name": "frost-protection-heat-exchanger-main-unit-30311"
   },
-  "30312": {
-    "title": "Status (OPT)",
-    "factor": 1,
-    "size": "u8",
-    "name": "status-opt-30312"
-  },
-  "30313": {
-    "title": "Version (OPT)",
-    "factor": 1,
-    "size": "u16",
-    "name": "version-opt-30313"
-  },
-  "30314": {
-    "title": "OPT relay, modulation level",
-    "factor": 10,
-    "unit": "%",
-    "size": "s16",
-    "name": "opt-relay-modulation-level-30314"
-  },
-  "30316": {
-    "title": "OPT operating time",
-    "factor": 1,
-    "unit": "h",
-    "size": "u16",
-    "name": "opt-operating-time-30316"
-  },
   "30318": {
     "title": "Available compressors heating",
     "factor": 1,
@@ -594,89 +505,6 @@
     "factor": 1,
     "size": "u8",
     "name": "available-compressors-cooling-30322"
-  },
-  "30328": {
-    "title": "+Adjust, port",
-    "factor": 1,
-    "size": "u8",
-    "name": "adjust-port-30328"
-  },
-  "30329": {
-    "title": "+Adjust, operating mode",
-    "factor": 1,
-    "size": "u8",
-    "name": "adjust-operating-mode-30329"
-  },
-  "30330": {
-    "title": "+Adjust, comfort",
-    "factor": 1,
-    "size": "u8",
-    "name": "adjust-comfort-30330"
-  },
-  "30331": {
-    "title": "+Adjust, parallel adjustment",
-    "factor": 1,
-    "size": "s8",
-    "name": "adjust-parallel-adjustment-30331"
-  },
-  "30332": {
-    "title": "+Adjust, humidity",
-    "factor": 10,
-    "unit": "%RH",
-    "size": "s16",
-    "name": "adjust-humidity-30332"
-  },
-  "30333": {
-    "title": "+Adjust, indoor temperature",
-    "factor": 10,
-    "unit": "\u00b0C",
-    "size": "s16",
-    "name": "adjust-indoor-temperature-30333"
-  },
-  "30334": {
-    "title": "+Adjust, outdoor temperature",
-    "factor": 10,
-    "unit": "\u00b0C",
-    "size": "s16",
-    "name": "adjust-outdoor-temperature-30334"
-  },
-  "30335": {
-    "title": "+Adjust, version",
-    "factor": 1,
-    "size": "u16",
-    "name": "adjust-version-30335"
-  },
-  "30336": {
-    "title": "+Adjust, active",
-    "factor": 1,
-    "size": "u8",
-    "name": "adjust-active-30336"
-  },
-  "30337": {
-    "title": "+Adjust, demand",
-    "factor": 1,
-    "size": "u8",
-    "name": "adjust-demand-30337"
-  },
-  "40002": {
-    "title": "+Adjust, parallel factor",
-    "factor": 1,
-    "size": "s8",
-    "min": 1.0,
-    "max": 10.0,
-    "default": 5.0,
-    "name": "adjust-parallel-factor-40002",
-    "write": true
-  },
-  "40003": {
-    "title": "+Adjust, Parallel (min-max)",
-    "factor": 1,
-    "size": "s8",
-    "min": 1.0,
-    "max": 100.0,
-    "default": 100.0,
-    "name": "adjust-parallel-min-max-40003",
-    "write": true
   },
   "30338": {
     "title": "Supply temperature (BT64)",
@@ -726,25 +554,6 @@
     "factor": 1,
     "size": "u8",
     "name": "status-compressor-demand-s135-30351"
-  },
-  "30352": {
-    "title": "No. of starts (S135)",
-    "factor": 1,
-    "size": "u32",
-    "min": 0.0,
-    "max": 9999999.0,
-    "default": 0.0,
-    "name": "no-of-starts-s135-30352"
-  },
-  "30354": {
-    "title": "Operating time (S135)",
-    "factor": 1,
-    "unit": "h",
-    "size": "u32",
-    "min": 0.0,
-    "max": 9999999.0,
-    "default": 0.0,
-    "name": "operating-time-s135-30354"
   },
   "40012": {
     "title": "Degree minutes",
@@ -884,16 +693,6 @@
     "size": "u8",
     "name": "seconds-of-blank-time-left-charge-pump-0-30394"
   },
-  "30397": {
-    "title": "Pulse energy meter (BE6)",
-    "factor": 100,
-    "unit": "kWh",
-    "size": "u32",
-    "min": 0.0,
-    "max": 2147483647.0,
-    "default": 0.0,
-    "name": "pulse-energy-meter-be6-30397"
-  },
   "30401": {
     "title": "Alarm number from outdoor air heat pump (EB101)",
     "factor": 1,
@@ -936,11 +735,11 @@
     "name": "min-compressor-speed-eb101-30406"
   },
   "30407": {
-    "title": "Generated power (EB101)",
+    "title": "Generated power heating (EB101)",
     "factor": 10,
     "unit": "kW",
     "size": "u16",
-    "name": "generated-power-eb101-30407"
+    "name": "generated-power-heating-eb101-30407"
   },
   "30408": {
     "title": "Time to defrosting (EB101)",
@@ -1065,6 +864,40 @@
     "size": "u16",
     "name": "degree-of-opening-evi-eb101-30425"
   },
+  "30535": {
+    "title": "Low press (EB102 BP8 dew)",
+    "factor": 10,
+    "unit": "\u00b0C",
+    "size": "s16",
+    "name": "low-press-eb102-bp8-dew-30535"
+  },
+  "30536": {
+    "title": "Hi press (EB102 BP9 dew)",
+    "factor": 10,
+    "unit": "\u00b0C",
+    "size": "s16",
+    "name": "hi-press-eb102-bp9-dew-30536"
+  },
+  "30539": {
+    "title": "EVI pressure (EB102-EP14-BP11 dew)",
+    "factor": 10,
+    "unit": "\u00b0C",
+    "size": "s16",
+    "name": "evi-pressure-eb102-ep14-bp11-dew-30539"
+  },
+  "30541": {
+    "title": "Fan status (EB102-EP14)",
+    "factor": 1,
+    "size": "u8",
+    "name": "fan-status-eb102-ep14-30541"
+  },
+  "30542": {
+    "title": "Fan rpm (EB102-EP14)",
+    "factor": 1,
+    "unit": "rpm",
+    "size": "u16",
+    "name": "fan-rpm-eb102-ep14-30542"
+  },
   "30551": {
     "title": "Low press (EB101 BP8 dew)",
     "factor": 10,
@@ -1131,13 +964,6 @@
     "size": "u16",
     "name": "high-condenser-in-alarm-s135-30577"
   },
-  "30579": {
-    "title": "Average current (EME 10)",
-    "factor": 10,
-    "unit": "A",
-    "size": "s16",
-    "name": "average-current-eme-10-30579"
-  },
   "30580": {
     "title": "Operating mode PV panels",
     "factor": 1,
@@ -1183,12 +1009,6 @@
     "factor": 1,
     "size": "u8",
     "name": "is-the-compressor-accessible-30594"
-  },
-  "30605": {
-    "title": "Prio, hot water (OPT)",
-    "factor": 1,
-    "size": "u8",
-    "name": "prio-hot-water-opt-30605"
   },
   "30684": {
     "title": "Permit (undefined)",
@@ -1454,18 +1274,6 @@
     "size": "u8",
     "name": "temp-lux-forces-start-of-hot-water-demand-30748"
   },
-  "30758": {
-    "title": "Smart energy source, prio OPT10 for hot water",
-    "factor": 1,
-    "size": "u8",
-    "name": "smart-energy-source-prio-opt10-for-hot-water-30758"
-  },
-  "30759": {
-    "title": "Smart energy source, Permit OPT to produce hot water",
-    "factor": 1,
-    "size": "u8",
-    "name": "smart-energy-source-permit-opt-to-produce-hot-water-30759"
-  },
   "30760": {
     "title": "Wood boiler activated",
     "factor": 1,
@@ -1514,12 +1322,150 @@
     "size": "u16",
     "name": "time-to-defrosting-eb103-30893"
   },
+  "30912": {
+    "title": "Fan speed (EB102)",
+    "factor": 1,
+    "unit": "rpm",
+    "size": "u16",
+    "name": "fan-speed-eb102-30912"
+  },
+  "30913": {
+    "title": "Max fan speed (EB102)",
+    "factor": 1,
+    "unit": "rpm",
+    "size": "u16",
+    "name": "max-fan-speed-eb102-30913"
+  },
+  "30914": {
+    "title": "Min fan speed (EB102)",
+    "factor": 1,
+    "unit": "rpm",
+    "size": "u16",
+    "name": "min-fan-speed-eb102-30914"
+  },
+  "30917": {
+    "title": "Generated power heating (EB102",
+    "factor": 10,
+    "unit": "kW",
+    "size": "u16",
+    "name": "generated-power-heating-eb102-30917"
+  },
   "30918": {
     "title": "Time to defrosting (EB102)",
     "factor": 1,
     "unit": "min",
     "size": "u16",
     "name": "time-to-defrosting-eb102-30918"
+  },
+  "30919": {
+    "title": "Defrosting index (EB102)",
+    "factor": 1,
+    "size": "u16",
+    "name": "defrosting-index-eb102-30919"
+  },
+  "30920": {
+    "title": "Superheat reference EEV (EB102)",
+    "factor": 10,
+    "unit": "\u00b0C",
+    "size": "s16",
+    "name": "superheat-reference-eev-eb102-30920"
+  },
+  "30921": {
+    "title": "Superheat EEV (EB102)",
+    "factor": 10,
+    "unit": "\u00b0C",
+    "size": "s16",
+    "name": "superheat-eev-eb102-30921"
+  },
+  "30922": {
+    "title": "EEV-ssh-error (EB102)",
+    "factor": 10,
+    "unit": "\u00b0C",
+    "size": "s16",
+    "name": "eev-ssh-error-eb102-30922"
+  },
+  "30923": {
+    "title": "Superheat temp. reference EEV (EB101)",
+    "factor": 10,
+    "unit": "\u00b0C",
+    "size": "s16",
+    "name": "superheat-temp-reference-eev-eb101-30923"
+  },
+  "30924": {
+    "title": "Set point value EEV (EB102)",
+    "factor": 10,
+    "unit": "\u00b0C",
+    "size": "s16",
+    "name": "set-point-value-eev-eb102-30924"
+  },
+  "30925": {
+    "title": "EEV PV (EB102)",
+    "factor": 10,
+    "unit": "\u00b0C",
+    "size": "s16",
+    "name": "eev-pv-eb102-30925"
+  },
+  "30926": {
+    "title": "EEV-te-error average open (EB102)",
+    "factor": 10,
+    "unit": "\u00b0C",
+    "size": "s16",
+    "name": "eev-te-error-average-open-eb102-30926"
+  },
+  "30927": {
+    "title": "Degree of opening EEV (EB102)",
+    "factor": 1,
+    "size": "u16",
+    "name": "degree-of-opening-eev-eb102-30927"
+  },
+  "30928": {
+    "title": "Superheat reference EVI (EB102)",
+    "factor": 10,
+    "unit": "\u00b0C",
+    "size": "s16",
+    "name": "superheat-reference-evi-eb102-30928"
+  },
+  "30929": {
+    "title": "Superheat EVI (EB102)",
+    "factor": 10,
+    "unit": "\u00b0C",
+    "size": "s16",
+    "name": "superheat-evi-eb102-30929"
+  },
+  "30930": {
+    "title": "EEV-ssh-error (EVI)(EB102)",
+    "factor": 10,
+    "unit": "\u00b0C",
+    "size": "s16",
+    "name": "eev-ssh-error-evi-eb102-30930"
+  },
+  "30931": {
+    "title": "Superheat temp. reference EVI (EB102)",
+    "factor": 10,
+    "unit": "\u00b0C",
+    "size": "s16",
+    "name": "superheat-temp-reference-evi-eb102-30931"
+  },
+  "30932": {
+    "title": "Set point value EVI (EB102)",
+    "factor": 10,
+    "unit": "\u00b0C",
+    "size": "s16",
+    "name": "set-point-value-evi-eb102-30932"
+  },
+  "30933": {
+    "title": "EVI PV (EB102)",
+    "factor": 10,
+    "unit": "\u00b0C",
+    "size": "s16",
+    "name": "evi-pv-eb102-30933"
+  },
+  "30934": {
+    "title": "EEV-te-error average open (EVI)(EB102)",
+    "factor": 10,
+    "unit": "\u00b0C",
+    "size": "s16",
+    "name": "eev-te-error-average-open-evi-eb102-30934"
   },
   "30936": {
     "title": "Alarm number (EB100)",
@@ -1563,11 +1509,11 @@
     "name": "min-compressor-speed-eb100-30941"
   },
   "30942": {
-    "title": "Generated power (EB100)",
+    "title": "Generated power heating (EB100)",
     "factor": 10,
     "unit": "kW",
     "size": "u16",
-    "name": "generated-power-eb100-30942"
+    "name": "generated-power-heating-eb100-30942"
   },
   "30943": {
     "title": "Time to defrosting (EB100)",
@@ -1772,6 +1718,13 @@
     "name": "limit-dm-40019",
     "write": true
   },
+  "31017": {
+    "title": "Calculated supply climate system 2",
+    "factor": 10,
+    "unit": "\u00b0C",
+    "size": "s16",
+    "name": "calculated-supply-climate-system-2-31017"
+  },
   "31018": {
     "title": "Calculated supply climate system 1",
     "factor": 10,
@@ -1783,11 +1736,7 @@
     "title": "Class 1 alarm",
     "factor": 1,
     "size": "u8",
-    "name": "class-1-alarm-32196",
-    "mappings": {
-      "0": "No alarm",
-      "1": "Alarm"
-    }
+    "name": "class-1-alarm-32196"
   },
   "31019": {
     "title": "Frost protection status",
@@ -1822,14 +1771,7 @@
     "title": "Priority",
     "factor": 1,
     "size": "u8",
-    "name": "priority-31029",
-    "mappings": {
-      "10": "Off",
-      "20": "Hot Water",
-      "30": "Heat",
-      "40": "Pool",
-      "60": "Cooling"
-    }
+    "name": "priority-31029"
   },
   "31030": {
     "title": "Operating mode internal add. heat",
@@ -1860,12 +1802,6 @@
     "factor": 1,
     "size": "u8",
     "name": "oper-mode-shunt-climate-system-1-31034"
-  },
-  "31035": {
-    "title": "Operating. mode shunt controlled additional heat",
-    "factor": 1,
-    "size": "u8",
-    "name": "operating-mode-shunt-controlled-additional-heat-31035"
   },
   "31038": {
     "title": "Fan mode 1",
@@ -1922,37 +1858,21 @@
     "size": "u8",
     "name": "step-controlled-add-heat-blocking-31063"
   },
-  "31068": {
-    "title": "Energy meter",
-    "factor": 10,
-    "unit": "kWh",
-    "size": "u32",
-    "min": 0.0,
-    "max": 9999999.0,
-    "default": 0.0,
-    "name": "energy-meter-31068"
-  },
   "31064": {
     "title": "Hot water circulation (GP11)",
     "factor": 1,
     "size": "u8",
     "name": "hot-water-circulation-gp11-31064"
   },
-  "31067": {
-    "title": "External heating medium pump (GP10) status",
-    "factor": 1,
-    "size": "u8",
-    "name": "external-heating-medium-pump-gp10-status-31067"
-  },
   "31070": {
-    "title": "Total HW run time additional heat",
+    "title": "Op.time electrical heater for hot water",
     "factor": 10,
     "unit": "h",
     "size": "s32",
     "min": 0.0,
     "max": 9999999.0,
     "default": 0.0,
-    "name": "total-hw-run-time-additional-heat-31070"
+    "name": "op-time-electrical-heater-for-hot-water-31070"
   },
   "31079": {
     "title": "More hot water status",
@@ -1966,13 +1886,6 @@
     "size": "s8",
     "name": "holiday-function-status-40020",
     "write": true
-  },
-  "31103": {
-    "title": "Heating medium pump speed (GP1)",
-    "factor": 1,
-    "unit": "%",
-    "size": "u8",
-    "name": "heating-medium-pump-speed-gp1-31103"
   },
   "31109": {
     "title": "Docked compressors heating",
@@ -1993,10 +1906,10 @@
     "name": "docked-compressors-pool-1-31111"
   },
   "32197": {
-    "title": "Reversing valve hot water (QN10)",
+    "title": "Diverter valve hot water (QN10)",
     "factor": 1,
     "size": "u8",
-    "name": "reversing-valve-hot-water-qn10-32197"
+    "name": "diverter-valve-hot-water-qn10-32197"
   },
   "31116": {
     "title": "Operating mode step controlled additional heat",
@@ -2013,7 +1926,7 @@
   "31120": {
     "title": "Relay status, imm. heat. board (EB100-EP14)",
     "factor": 1,
-    "size": "u8",
+    "size": "u16",
     "name": "relay-status-imm-heat-board-eb100-ep14-31120"
   },
   "31121": {
@@ -2039,6 +1952,12 @@
     "factor": 1,
     "size": "u32",
     "name": "functionality-heat-pump-ep15-31126"
+  },
+  "31128": {
+    "title": "External add. heat blocking",
+    "factor": 1,
+    "size": "u8",
+    "name": "external-add-heat-blocking-31128"
   },
   "31130": {
     "title": "Operating mode HW comfort",
@@ -2090,11 +2009,11 @@
     "name": "return-line-eb101-bt3-31476"
   },
   "31479": {
-    "title": "Supply line (EB101-BT12)",
+    "title": "Condenser sensor supply line (EB101-BT12)",
     "factor": 10,
     "unit": "\u00b0C",
     "size": "s16",
-    "name": "supply-line-eb101-bt12-31479"
+    "name": "condenser-sensor-supply-line-eb101-bt12-31479"
   },
   "31480": {
     "title": "Discharge (EB101-BT14)",
@@ -2117,6 +2036,12 @@
     "size": "s16",
     "name": "suction-gas-eb101-bt17-31482"
   },
+  "31485": {
+    "title": "Compressor status (EB101)",
+    "factor": 1,
+    "size": "u8",
+    "name": "compressor-status-eb101-31485"
+  },
   "31486": {
     "title": "Compressor, time to start (EB101-EP14)",
     "factor": 1,
@@ -2138,7 +2063,7 @@
     "factor": 1,
     "unit": "h",
     "size": "u32",
-    "min": 0.0,
+    "min": -2147483648.0,
     "max": 2147483647.0,
     "default": 0.0,
     "name": "compressor-oper-time-total-eb101-ep14-31492"
@@ -2148,7 +2073,7 @@
     "factor": 1,
     "unit": "h",
     "size": "u32",
-    "min": 0.0,
+    "min": -2147483648.0,
     "max": 2147483647.0,
     "default": 0.0,
     "name": "compressor-oper-time-hot-water-eb101-ep14-31494"
@@ -2170,6 +2095,12 @@
     "factor": 1,
     "size": "u8",
     "name": "compressor-size-eb100-31499"
+  },
+  "31555": {
+    "title": "Compressor, requested (EB102-EP14)",
+    "factor": 1,
+    "size": "u8",
+    "name": "compressor-requested-eb102-ep14-31555"
   },
   "31557": {
     "title": "Compressor, requested (EB101-EP14)",
@@ -2206,20 +2137,6 @@
     "name": "cooling-degree-minutes-40021",
     "write": true
   },
-  "31568": {
-    "title": "Calculated cooling supply climate system 1",
-    "factor": 10,
-    "unit": "\u00b0C",
-    "size": "s16",
-    "name": "calculated-cooling-supply-climate-system-1-31568"
-  },
-  "31590": {
-    "title": "Speed (GP12)",
-    "factor": 1,
-    "unit": "%",
-    "size": "u8",
-    "name": "speed-gp12-31590"
-  },
   "40022": {
     "title": "Cooling pump manual speed",
     "factor": 1,
@@ -2245,12 +2162,18 @@
     "size": "s16",
     "name": "evaporator-eb101-bt16-31623"
   },
+  "31628": {
+    "title": "External pump additional heat",
+    "factor": 1,
+    "size": "u8",
+    "name": "external-pump-additional-heat-31628"
+  },
   "31637": {
-    "title": "Heating medium pump speed (GP1)",
+    "title": "Charge pump speed (EB101-GP12)",
     "factor": 1,
     "unit": "%",
     "size": "u8",
-    "name": "heating-medium-pump-speed-gp1-31637"
+    "name": "charge-pump-speed-eb101-gp12-31637"
   },
   "31639": {
     "title": "Frost protection heat exchanger heat pump 1",
@@ -2270,18 +2193,62 @@
     "size": "u8",
     "name": "docked-compressors-cooling-31695"
   },
+  "31780": {
+    "title": "BP4, unprocessed (EB102-EP15)",
+    "factor": 1,
+    "size": "s16",
+    "name": "bp4-unprocessed-eb102-ep15-31780"
+  },
+  "31782": {
+    "title": "Low pressure (EB102-EP15--BP8)",
+    "factor": 10,
+    "unit": "bar",
+    "size": "s16",
+    "name": "low-pressure-eb102-ep15-bp8-31782"
+  },
+  "31784": {
+    "title": "Prot. status (EB102-EP15)",
+    "factor": 1,
+    "size": "u16",
+    "name": "prot-status-eb102-ep15-31784"
+  },
+  "31785": {
+    "title": "Defrosting (EB102-EP15)",
+    "factor": 1,
+    "size": "u8",
+    "name": "defrosting-eb102-ep15-31785"
+  },
+  "31786": {
+    "title": "Power (EB102-EP15)",
+    "factor": 1,
+    "unit": "kW",
+    "size": "u8",
+    "name": "power-eb102-ep15-31786"
+  },
+  "31787": {
+    "title": "BP4, unprocessed (EB102-EP14)",
+    "factor": 1,
+    "size": "s16",
+    "name": "bp4-unprocessed-eb102-ep14-31787"
+  },
+  "31792": {
+    "title": "Defrosting (EB102)",
+    "factor": 1,
+    "size": "u8",
+    "name": "defrosting-eb102-31792"
+  },
+  "31793": {
+    "title": "Power (EB102-EP14)",
+    "factor": 1,
+    "unit": "kW",
+    "size": "u8",
+    "name": "power-eb102-ep14-31793"
+  },
   "31801": {
     "title": "BP4, unprocessed (EB101-EP14)",
     "factor": 1,
     "size": "s16",
     "name": "bp4-unprocessed-eb101-ep14-31801"
-  },
-  "31802": {
-    "title": "Pressure sensor, condenser (EB101-BP4)",
-    "factor": 10,
-    "unit": "bar",
-    "size": "s16",
-    "name": "pressure-sensor-condenser-eb101-bp4-31802"
   },
   "31803": {
     "title": "Low pressure (EB101-BP8)",
@@ -2315,6 +2282,12 @@
     "unit": "kW",
     "size": "u8",
     "name": "power-eb101-ep14-31807"
+  },
+  "31822": {
+    "title": "Hot water shunt (QN35)",
+    "factor": 1,
+    "size": "u8",
+    "name": "hot-water-shunt-qn35-31822"
   },
   "31823": {
     "title": "Internal charge pump (GP12)",
@@ -2372,12 +2345,6 @@
     "size": "s16",
     "name": "current-sensor-eb101-ep14-31904"
   },
-  "31912": {
-    "title": "Operating mode (SG Ready)",
-    "factor": 1,
-    "size": "u8",
-    "name": "operating-mode-sg-ready-31912"
-  },
   "31913": {
     "title": "SG ready, input A",
     "factor": 1,
@@ -2389,12 +2356,6 @@
     "factor": 1,
     "size": "u8",
     "name": "sg-ready-input-b-31914"
-  },
-  "31915": {
-    "title": "Heating offset (SPA)",
-    "factor": 10,
-    "size": "s8",
-    "name": "heating-offset-spa-31915"
   },
   "31916": {
     "title": "Hot water comfort mode (SPA)",
@@ -2419,13 +2380,6 @@
     "factor": 1,
     "size": "u8",
     "name": "operating-mode-smart-price-adaption-31919"
-  },
-  "31967": {
-    "title": "Evaporator 2 (EB101-EP14-BT16)",
-    "factor": 10,
-    "unit": "\u00b0C",
-    "size": "s16",
-    "name": "evaporator-2-eb101-ep14-bt16-31967"
   },
   "31968": {
     "title": "Temperature, inverter (EB101-EP14)",
@@ -2499,6 +2453,16 @@
     "size": "s16",
     "name": "non-module-specific-alarm-numbers-31977"
   },
+  "40026": {
+    "title": "Heating curve climate system 2",
+    "factor": 1,
+    "size": "s8",
+    "min": 0.0,
+    "max": 15.0,
+    "default": 9.0,
+    "name": "heating-curve-climate-system-2-40026",
+    "write": true
+  },
   "40027": {
     "title": "Heating curve climate system 1",
     "factor": 1,
@@ -2507,6 +2471,16 @@
     "max": 15.0,
     "default": 9.0,
     "name": "heating-curve-climate-system-1-40027",
+    "write": true
+  },
+  "40030": {
+    "title": "Heating offset climate system 2",
+    "factor": 1,
+    "size": "s8",
+    "min": -10.0,
+    "max": 10.0,
+    "default": 0.0,
+    "name": "heating-offset-climate-system-2-40030",
     "write": true
   },
   "40031": {
@@ -2519,6 +2493,17 @@
     "name": "heating-offset-climate-system-1-40031",
     "write": true
   },
+  "40034": {
+    "title": "Min supply climate system 2",
+    "factor": 10,
+    "unit": "\u00b0C",
+    "size": "s16",
+    "min": 50.0,
+    "max": 800.0,
+    "default": 200.0,
+    "name": "min-supply-climate-system-2-40034",
+    "write": true
+  },
   "40035": {
     "title": "Min supply climate system 1",
     "factor": 10,
@@ -2528,6 +2513,17 @@
     "max": 800.0,
     "default": 200.0,
     "name": "min-supply-climate-system-1-40035",
+    "write": true
+  },
+  "40038": {
+    "title": "Max supply climate system 2",
+    "factor": 10,
+    "unit": "\u00b0C",
+    "size": "s16",
+    "min": 50.0,
+    "max": 800.0,
+    "default": 600.0,
+    "name": "max-supply-climate-system-2-40038",
     "write": true
   },
   "40039": {
@@ -2640,6 +2636,16 @@
     "name": "point-offset-40048",
     "write": true
   },
+  "40051": {
+    "title": "External adjustment climate system 2",
+    "factor": 1,
+    "size": "s8",
+    "min": -10.0,
+    "max": 10.0,
+    "default": 0.0,
+    "name": "external-adjustment-climate-system-2-40051",
+    "write": true
+  },
   "40052": {
     "title": "External adjustment climate system 1",
     "factor": 1,
@@ -2648,6 +2654,17 @@
     "max": 10.0,
     "default": 0.0,
     "name": "external-adjustment-climate-system-1-40052",
+    "write": true
+  },
+  "40055": {
+    "title": "External adjustment with room sensor climate system 2",
+    "factor": 10,
+    "unit": "\u00b0C",
+    "size": "s16",
+    "min": 50.0,
+    "max": 300.0,
+    "default": 200.0,
+    "name": "external-adjustment-with-room-sensor-climate-system-2-40055",
     "write": true
   },
   "40056": {
@@ -2669,13 +2686,7 @@
     "max": 4.0,
     "default": 1.0,
     "name": "hot-water-demand-mode-40057",
-    "write": true,
-    "mappings": {
-      "0": "Small",
-      "1": "Medium",
-      "2": "Large",
-      "4": "Smart Control"
-    }
+    "write": true
   },
   "40059": {
     "title": "Start temperature HW high temperature",
@@ -2684,7 +2695,7 @@
     "size": "s16",
     "min": 50.0,
     "max": 700.0,
-    "default": 440.0,
+    "default": 520.0,
     "name": "start-temperature-hw-high-temperature-40059",
     "write": true
   },
@@ -2694,8 +2705,8 @@
     "unit": "\u00b0C",
     "size": "s16",
     "min": 50.0,
-    "max": 700.0,
-    "default": 410.0,
+    "max": 550.0,
+    "default": 470.0,
     "name": "start-temperature-hw-normal-temperature-40060",
     "write": true
   },
@@ -2705,20 +2716,9 @@
     "unit": "\u00b0C",
     "size": "s16",
     "min": 50.0,
-    "max": 700.0,
-    "default": 380.0,
+    "max": 550.0,
+    "default": 440.0,
     "name": "start-temperature-hw-low-temperature-40061",
-    "write": true
-  },
-  "40062": {
-    "title": "Stop temperature HW periodic increase",
-    "factor": 10,
-    "unit": "\u00b0C",
-    "size": "s16",
-    "min": 550.0,
-    "max": 700.0,
-    "default": 550.0,
-    "name": "stop-temperature-hw-periodic-increase-40062",
     "write": true
   },
   "40063": {
@@ -2728,7 +2728,7 @@
     "size": "s16",
     "min": 50.0,
     "max": 700.0,
-    "default": 480.0,
+    "default": 600.0,
     "name": "stop-temperature-hw-high-temperature-40063",
     "write": true
   },
@@ -2738,8 +2738,8 @@
     "unit": "\u00b0C",
     "size": "s16",
     "min": 50.0,
-    "max": 700.0,
-    "default": 450.0,
+    "max": 600.0,
+    "default": 550.0,
     "name": "stop-temperature-hw-normal-temperature-40064",
     "write": true
   },
@@ -2749,37 +2749,19 @@
     "unit": "\u00b0C",
     "size": "s16",
     "min": 50.0,
-    "max": 700.0,
-    "default": 420.0,
+    "max": 600.0,
+    "default": 470.0,
     "name": "stop-temperature-hw-low-temperature-40065",
     "write": true
   },
-  "40066": {
-    "title": "Periodic hot water",
+  "42755": {
+    "title": "Hot water circulation",
     "factor": 1,
-    "size": "s8",
+    "size": "u8",
     "min": 0.0,
     "max": 1.0,
-    "default": 1.0,
-    "name": "periodic-hot-water-40066",
-    "write": true
-  },
-  "40067": {
-    "title": "Periodic hot water interval",
-    "factor": 1,
-    "unit": "days",
-    "size": "s8",
-    "min": 1.0,
-    "max": 90.0,
-    "default": 7.0,
-    "name": "periodic-hot-water-interval-40067",
-    "write": true
-  },
-  "40068": {
-    "title": "Start time periodic hot water",
-    "factor": 1,
-    "size": "u16",
-    "name": "start-time-periodic-hot-water-40068",
+    "default": 0.0,
+    "name": "hot-water-circulation-42755",
     "write": true
   },
   "43103": {
@@ -2836,17 +2818,6 @@
     "name": "period-time-heating-40094",
     "write": true
   },
-  "40095": {
-    "title": "Period time pool",
-    "factor": 1,
-    "unit": "min",
-    "size": "u8",
-    "min": 0.0,
-    "max": 180.0,
-    "default": 30.0,
-    "name": "period-time-pool-40095",
-    "write": true
-  },
   "42744": {
     "title": "Operating mode",
     "factor": 1,
@@ -2896,68 +2867,34 @@
     "name": "fuse-40104",
     "write": true
   },
-  "40105": {
-    "title": "Ventilation mode",
+  "42748": {
+    "title": "Phase Order L3",
     "factor": 1,
-    "size": "u8",
-    "min": 0.0,
-    "max": 4.0,
-    "default": 0.0,
-    "name": "ventilation-mode-40105",
-    "write": true
-  },
-  "40116": {
-    "title": "Return time fan 4",
-    "factor": 1,
-    "unit": "h",
     "size": "u8",
     "min": 1.0,
-    "max": 24.0,
+    "max": 128.0,
     "default": 4.0,
-    "name": "return-time-fan-4-40116",
+    "name": "phase-order-l3-42748",
     "write": true
   },
-  "40117": {
-    "title": "Return time fan 3",
-    "factor": 1,
-    "unit": "h",
-    "size": "u8",
-    "min": 1.0,
-    "max": 24.0,
-    "default": 4.0,
-    "name": "return-time-fan-3-40117",
-    "write": true
-  },
-  "40118": {
-    "title": "Return time fan 2",
-    "factor": 1,
-    "unit": "h",
-    "size": "u8",
-    "min": 1.0,
-    "max": 24.0,
-    "default": 4.0,
-    "name": "return-time-fan-2-40118",
-    "write": true
-  },
-  "40119": {
-    "title": "Return time fan 1",
-    "factor": 1,
-    "unit": "h",
-    "size": "u8",
-    "min": 1.0,
-    "max": 24.0,
-    "default": 4.0,
-    "name": "return-time-fan-1-40119",
-    "write": true
-  },
-  "40120": {
-    "title": "Time between filter replacement",
+  "42747": {
+    "title": "Phase Order L2",
     "factor": 1,
     "size": "u8",
     "min": 1.0,
-    "max": 24.0,
-    "default": 3.0,
-    "name": "time-between-filter-replacement-40120",
+    "max": 128.0,
+    "default": 2.0,
+    "name": "phase-order-l2-42747",
+    "write": true
+  },
+  "42746": {
+    "title": "Phase Order L1",
+    "factor": 1,
+    "size": "u8",
+    "min": 1.0,
+    "max": 128.0,
+    "default": 1.0,
+    "name": "phase-order-l1-42746",
     "write": true
   },
   "40121": {
@@ -3185,6 +3122,27 @@
     "name": "climate-system-4-40145",
     "write": true
   },
+  "40148": {
+    "title": "Climate system 2 shunt amplification",
+    "factor": 10,
+    "size": "s8",
+    "min": 1.0,
+    "max": 100.0,
+    "default": 10.0,
+    "name": "climate-system-2-shunt-amplification-40148",
+    "write": true
+  },
+  "40151": {
+    "title": "Climate system 2 shunt wait time",
+    "factor": 1,
+    "unit": "s",
+    "size": "s16",
+    "min": 10.0,
+    "max": 300.0,
+    "default": 30.0,
+    "name": "climate-system-2-shunt-wait-time-40151",
+    "write": true
+  },
   "40154": {
     "title": "Shunt controlled additional heat",
     "factor": 1,
@@ -3214,17 +3172,6 @@
     "max": 1.0,
     "default": 0.0,
     "name": "step-controlled-additional-heat-accessory-40159",
-    "write": true
-  },
-  "40160": {
-    "title": "DM start step controlled additional heat",
-    "factor": 1,
-    "unit": "DM",
-    "size": "s16",
-    "min": -2000.0,
-    "max": -30.0,
-    "default": -400.0,
-    "name": "dm-start-step-controlled-additional-heat-40160",
     "write": true
   },
   "40166": {
@@ -3258,6 +3205,17 @@
     "max": 100.0,
     "default": 30.0,
     "name": "cooling-start-at-over-temp-40168",
+    "write": true
+  },
+  "40170": {
+    "title": "Cooling shunt waiting time",
+    "factor": 1,
+    "unit": "s",
+    "size": "s16",
+    "min": 10.0,
+    "max": 300.0,
+    "default": 30.0,
+    "name": "cooling-shunt-waiting-time-40170",
     "write": true
   },
   "40171": {
@@ -3309,17 +3267,6 @@
     "max": 1.0,
     "default": 1.0,
     "name": "permit-cooling-40183",
-    "write": true
-  },
-  "40184": {
-    "title": "Auto mode, start temperature for cooling",
-    "factor": 10,
-    "unit": "\u00b0C",
-    "size": "s16",
-    "min": 150.0,
-    "max": 400.0,
-    "default": 250.0,
-    "name": "auto-mode-start-temperature-for-cooling-40184",
     "write": true
   },
   "40185": {
@@ -3543,7 +3490,7 @@
     "factor": 1,
     "size": "u8",
     "min": 0.0,
-    "max": 67.0,
+    "max": 69.0,
     "default": 0.0,
     "name": "input-aux5-40212",
     "write": true
@@ -3553,7 +3500,7 @@
     "factor": 1,
     "size": "u8",
     "min": 0.0,
-    "max": 67.0,
+    "max": 69.0,
     "default": 0.0,
     "name": "input-aux4-40213",
     "write": true
@@ -3563,7 +3510,7 @@
     "factor": 1,
     "size": "u8",
     "min": 0.0,
-    "max": 67.0,
+    "max": 69.0,
     "default": 0.0,
     "name": "input-aux3-40214",
     "write": true
@@ -3573,7 +3520,7 @@
     "factor": 1,
     "size": "u8",
     "min": 0.0,
-    "max": 67.0,
+    "max": 69.0,
     "default": 0.0,
     "name": "input-aux2-40215",
     "write": true
@@ -3583,7 +3530,7 @@
     "factor": 1,
     "size": "u8",
     "min": 0.0,
-    "max": 67.0,
+    "max": 69.0,
     "default": 0.0,
     "name": "input-aux1-40216",
     "write": true
@@ -3598,6 +3545,61 @@
     "name": "output-aux1-40217",
     "write": true
   },
+  "40218": {
+    "title": "Speed of circulation pump for hot water",
+    "factor": 1,
+    "unit": "%",
+    "size": "u8",
+    "min": 1.0,
+    "max": 100.0,
+    "default": 70.0,
+    "name": "speed-of-circulation-pump-for-hot-water-40218",
+    "write": true
+  },
+  "40219": {
+    "title": "Speed of circulation pump for heating",
+    "factor": 1,
+    "unit": "%",
+    "size": "u8",
+    "min": 1.0,
+    "max": 100.0,
+    "default": 70.0,
+    "name": "speed-of-circulation-pump-for-heating-40219",
+    "write": true
+  },
+  "40220": {
+    "title": "Speed, heating medium pump for pool",
+    "factor": 1,
+    "unit": "%",
+    "size": "u8",
+    "min": 1.0,
+    "max": 100.0,
+    "default": 70.0,
+    "name": "speed-heating-medium-pump-for-pool-40220",
+    "write": true
+  },
+  "40221": {
+    "title": "Speed heating medium pump waiting mode",
+    "factor": 1,
+    "unit": "%",
+    "size": "u8",
+    "min": 1.0,
+    "max": 100.0,
+    "default": 30.0,
+    "name": "speed-heating-medium-pump-waiting-mode-40221",
+    "write": true
+  },
+  "40222": {
+    "title": "Speed of circulation pump passive cooling (EP14)",
+    "factor": 1,
+    "unit": "%",
+    "size": "u8",
+    "min": 1.0,
+    "max": 100.0,
+    "default": 70.0,
+    "name": "speed-of-circulation-pump-passive-cooling-ep14-40222",
+    "write": true
+  },
   "40224": {
     "title": "Preset flow setting for climate system",
     "factor": 1,
@@ -3609,20 +3611,10 @@
     "write": true
   },
   "40226": {
-    "title": "More hot water",
+    "title": "More hot water (Number of minutes)",
     "factor": 1,
     "size": "u16",
-    "name": "more-hot-water-40226",
-    "write": true
-  },
-  "40228": {
-    "title": "Night cooling 1",
-    "factor": 1,
-    "size": "u8",
-    "min": 0.0,
-    "max": 1.0,
-    "default": 0.0,
-    "name": "night-cooling-1-40228",
+    "name": "more-hot-water-number-of-minutes-40226",
     "write": true
   },
   "40238": {
@@ -3630,12 +3622,27 @@
     "factor": 1,
     "size": "u8",
     "name": "oper-mode-40238",
-    "write": true,
-    "mappings": {
-      "0": "Auto",
-      "1": "Manual",
-      "2": "Add. heat only"
-    }
+    "write": true
+  },
+  "40241": {
+    "title": "External additional heat step controlled",
+    "factor": 1,
+    "size": "u8",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.0,
+    "name": "external-additional-heat-step-controlled-40241",
+    "write": true
+  },
+  "40242": {
+    "title": "External additional heat min. run time",
+    "factor": 1,
+    "size": "u8",
+    "min": 0.0,
+    "max": 48.0,
+    "default": 12.0,
+    "name": "external-additional-heat-min-run-time-40242",
+    "write": true
   },
   "40682": {
     "title": "Cooling heat sensor set point value",
@@ -3645,6 +3652,23 @@
     "max": 400.0,
     "default": 210.0,
     "name": "cooling-heat-sensor-set-point-value-40682",
+    "write": true
+  },
+  "31981": {
+    "title": "Solar heating of pool active",
+    "factor": 1,
+    "size": "u8",
+    "name": "solar-heating-of-pool-active-31981"
+  },
+  "40683": {
+    "title": "Heating medium pump manual speed",
+    "factor": 1,
+    "unit": "%",
+    "size": "s8",
+    "min": 1.0,
+    "max": 100.0,
+    "default": 70.0,
+    "name": "heating-medium-pump-manual-speed-40683",
     "write": true
   },
   "40686": {
@@ -3657,38 +3681,6 @@
     "name": "pool-1-accessory-40686",
     "write": true
   },
-  "40688": {
-    "title": "Pool 1 start temperature",
-    "factor": 10,
-    "unit": "\u00b0C",
-    "size": "s16",
-    "min": 50.0,
-    "max": 795.0,
-    "default": 220.0,
-    "name": "pool-1-start-temperature-40688",
-    "write": true
-  },
-  "40690": {
-    "title": "Pool 1 stop temperature",
-    "factor": 10,
-    "unit": "\u00b0C",
-    "size": "s16",
-    "min": 55.0,
-    "max": 800.0,
-    "default": 240.0,
-    "name": "pool-1-stop-temperature-40690",
-    "write": true
-  },
-  "40692": {
-    "title": "Pool 1 activated",
-    "factor": 1,
-    "size": "u8",
-    "min": 0.0,
-    "max": 1.0,
-    "default": 1.0,
-    "name": "pool-1-activated-40692",
-    "write": true
-  },
   "40695": {
     "title": "Hot water comfort",
     "factor": 1,
@@ -3697,6 +3689,17 @@
     "max": 1.0,
     "default": 0.0,
     "name": "hot-water-comfort-40695",
+    "write": true
+  },
+  "40696": {
+    "title": "Manual heating medium pump speed",
+    "factor": 1,
+    "unit": "%",
+    "size": "s8",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.0,
+    "name": "manual-heating-medium-pump-speed-40696",
     "write": true
   },
   "40698": {
@@ -3737,37 +3740,14 @@
     "name": "external-cooling-accessory-40710",
     "write": true
   },
-  "40721": {
-    "title": "Min. supply temp. cooling climate system 1",
+  "40711": {
+    "title": "HW comfort additional heat",
     "factor": 1,
-    "unit": "\u00b0C",
-    "size": "s8",
-    "min": 18.0,
-    "max": 30.0,
-    "default": 18.0,
-    "name": "min-supply-temp-cooling-climate-system-1-40721",
-    "write": true
-  },
-  "40722": {
-    "title": "Own curve, cooling P3",
-    "factor": 1,
-    "unit": "\u00b0C",
-    "size": "s8",
-    "min": 7.0,
-    "max": 40.0,
-    "default": 20.0,
-    "name": "own-curve-cooling-p3-40722",
-    "write": true
-  },
-  "40723": {
-    "title": "Own curve, cooling P5",
-    "factor": 1,
-    "unit": "\u00b0C",
-    "size": "s8",
-    "min": 7.0,
-    "max": 40.0,
-    "default": 20.0,
-    "name": "own-curve-cooling-p5-40723",
+    "size": "u8",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.0,
+    "name": "hw-comfort-additional-heat-40711",
     "write": true
   },
   "40727": {
@@ -3778,17 +3758,6 @@
     "max": 1.0,
     "default": 1.0,
     "name": "cooling-connected-climate-system-1-40727",
-    "write": true
-  },
-  "40737": {
-    "title": "Period time cooling",
-    "factor": 1,
-    "unit": "min",
-    "size": "u8",
-    "min": 0.0,
-    "max": 180.0,
-    "default": 30.0,
-    "name": "period-time-cooling-40737",
     "write": true
   },
   "40739": {
@@ -3813,14 +3782,24 @@
     "name": "cooling-delta-temp-40degc-40740",
     "write": true
   },
-  "40749": {
-    "title": "Operating mode charge pump climate system 1",
+  "40748": {
+    "title": "Op. mode charge pump (EB102)",
     "factor": 1,
     "size": "u8",
     "min": 0.0,
     "max": 1.0,
-    "default": 1.0,
-    "name": "operating-mode-charge-pump-climate-system-1-40749",
+    "default": 0.0,
+    "name": "op-mode-charge-pump-eb102-40748",
+    "write": true
+  },
+  "40749": {
+    "title": "Op. mode charge pump (EB101)",
+    "factor": 1,
+    "size": "u8",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.0,
+    "name": "op-mode-charge-pump-eb101-40749",
     "write": true
   },
   "45269": {
@@ -3844,11 +3823,22 @@
     "name": "shunted-brine-max-temp-45272",
     "write": true
   },
+  "40758": {
+    "title": "DM start external additional heat",
+    "factor": 10,
+    "unit": "DM",
+    "size": "s16",
+    "min": 50.0,
+    "max": 20000.0,
+    "default": 14000.0,
+    "name": "dm-start-external-additional-heat-40758",
+    "write": true
+  },
   "40759": {
-    "title": "Additional heat after reversing valve",
+    "title": "Additional heat after diverter valve",
     "factor": 1,
     "size": "u8",
-    "name": "additional-heat-after-reversing-valve-40759",
+    "name": "additional-heat-after-diverter-valve-40759",
     "write": true
   },
   "40761": {
@@ -3866,9 +3856,19 @@
     "factor": 1,
     "size": "u8",
     "min": 0.0,
-    "max": 67.0,
+    "max": 69.0,
     "default": 0.0,
     "name": "input-aux6-40768",
+    "write": true
+  },
+  "40783": {
+    "title": "Operating mode circulation pump heating heat pump 2",
+    "factor": 1,
+    "size": "u8",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 1.0,
+    "name": "operating-mode-circulation-pump-heating-heat-pump-2-40783",
     "write": true
   },
   "40784": {
@@ -3881,6 +3881,16 @@
     "name": "operating-mode-circulation-pump-heating-heat-pump-1-40784",
     "write": true
   },
+  "40799": {
+    "title": "Operating mode circulation pump hot water heat pump 2",
+    "factor": 1,
+    "size": "u8",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 1.0,
+    "name": "operating-mode-circulation-pump-hot-water-heat-pump-2-40799",
+    "write": true
+  },
   "40800": {
     "title": "Operating mode circulation pump hot water heat pump 1",
     "factor": 1,
@@ -3891,35 +3901,15 @@
     "name": "operating-mode-circulation-pump-hot-water-heat-pump-1-40800",
     "write": true
   },
-  "40816": {
-    "title": "Operating mode circulation pump pool heat pump 1",
-    "factor": 1,
-    "size": "u8",
-    "min": 0.0,
-    "max": 1.0,
-    "default": 1.0,
-    "name": "operating-mode-circulation-pump-pool-heat-pump-1-40816",
-    "write": true
-  },
-  "40824": {
-    "title": "Speed circulation pump cooling heat pump 1",
+  "40841": {
+    "title": "Speed circulation pump waiting mode heat pump 2",
     "factor": 1,
     "unit": "%",
     "size": "u8",
     "min": 1.0,
     "max": 100.0,
-    "default": 70.0,
-    "name": "speed-circulation-pump-cooling-heat-pump-1-40824",
-    "write": true
-  },
-  "40833": {
-    "title": "Operating mode circulation pump cooling heat pump 1",
-    "factor": 1,
-    "size": "u8",
-    "min": 0.0,
-    "max": 1.0,
-    "default": 1.0,
-    "name": "operating-mode-circulation-pump-cooling-heat-pump-1-40833",
+    "default": 30.0,
+    "name": "speed-circulation-pump-waiting-mode-heat-pump-2-40841",
     "write": true
   },
   "40842": {
@@ -3954,6 +3944,46 @@
     "name": "activated-smart-price-adaption-40844",
     "write": true
   },
+  "40845": {
+    "title": "(SPA), heating activated (SPA)",
+    "factor": 1,
+    "size": "u8",
+    "min": 0.0,
+    "max": 3.0,
+    "default": 1.0,
+    "name": "spa-heating-activated-spa-40845",
+    "write": true
+  },
+  "40846": {
+    "title": "(SPA), heating influence",
+    "factor": 1,
+    "size": "s8",
+    "min": 1.0,
+    "max": 10.0,
+    "default": 5.0,
+    "name": "spa-heating-influence-40846",
+    "write": true
+  },
+  "40847": {
+    "title": "(SPA), hot water activated",
+    "factor": 1,
+    "size": "u8",
+    "min": 0.0,
+    "max": 4.0,
+    "default": 0.0,
+    "name": "spa-hot-water-activated-40847",
+    "write": true
+  },
+  "40849": {
+    "title": "(SPA), pool influence",
+    "factor": 1,
+    "size": "s8",
+    "min": 0.0,
+    "max": 10.0,
+    "default": 2.0,
+    "name": "spa-pool-influence-40849",
+    "write": true
+  },
   "40850": {
     "title": "(SPA), cooling activated",
     "factor": 1,
@@ -3964,14 +3994,79 @@
     "name": "spa-cooling-activated-40850",
     "write": true
   },
+  "40851": {
+    "title": "(SPA), cooling influence",
+    "factor": 1,
+    "size": "s8",
+    "min": 0.0,
+    "max": 10.0,
+    "default": 2.0,
+    "name": "spa-cooling-influence-40851",
+    "write": true
+  },
   "40852": {
     "title": "(SPA), area",
     "factor": 1,
     "size": "u8",
     "min": 0.0,
-    "max": 254.0,
-    "default": 23.0,
+    "max": 255.0,
+    "default": 255.0,
     "name": "spa-area-40852",
+    "write": true
+  },
+  "40853": {
+    "title": "Automatic speed heating medium pump, hot water",
+    "factor": 1,
+    "unit": "%",
+    "size": "s8",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 1.0,
+    "name": "automatic-speed-heating-medium-pump-hot-water-40853",
+    "write": true
+  },
+  "40854": {
+    "title": "Automatic speed heating medium pump, heating",
+    "factor": 1,
+    "unit": "%",
+    "size": "s8",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 1.0,
+    "name": "automatic-speed-heating-medium-pump-heating-40854",
+    "write": true
+  },
+  "40855": {
+    "title": "Automatic speed heating medium pump, pool",
+    "factor": 1,
+    "unit": "%",
+    "size": "s8",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 1.0,
+    "name": "automatic-speed-heating-medium-pump-pool-40855",
+    "write": true
+  },
+  "40859": {
+    "title": "Maximum speed of circulation pump for heating",
+    "factor": 1,
+    "unit": "%",
+    "size": "u8",
+    "min": 50.0,
+    "max": 100.0,
+    "default": 100.0,
+    "name": "maximum-speed-of-circulation-pump-for-heating-40859",
+    "write": true
+  },
+  "40867": {
+    "title": "Max. speed controlled charge pump (EB102)",
+    "factor": 1,
+    "unit": "%",
+    "size": "u8",
+    "min": 80.0,
+    "max": 100.0,
+    "default": 100.0,
+    "name": "max-speed-controlled-charge-pump-eb102-40867",
     "write": true
   },
   "40868": {
@@ -3983,16 +4078,6 @@
     "max": 100.0,
     "default": 100.0,
     "name": "max-speed-controlled-charge-pump-eb101-40868",
-    "write": true
-  },
-  "40876": {
-    "title": "Operating mode charge pump, cooling climate system 1",
-    "factor": 1,
-    "size": "u8",
-    "min": 0.0,
-    "max": 1.0,
-    "default": 1.0,
-    "name": "operating-mode-charge-pump-cooling-climate-system-1-40876",
     "write": true
   },
   "40894": {
@@ -4079,27 +4164,6 @@
     "name": "external-adjustment-with-room-sensor-climate-system-5-40901",
     "write": true
   },
-  "45029": {
-    "title": "Forced control (AZ30-QN37) (close)",
-    "factor": 1,
-    "size": "u8",
-    "name": "forced-control-az30-qn37-close-45029",
-    "write": true
-  },
-  "45028": {
-    "title": "Forced control (AZ30-QN37) (open)",
-    "factor": 1,
-    "size": "u8",
-    "name": "forced-control-az30-qn37-open-45028",
-    "write": true
-  },
-  "45027": {
-    "title": "Forced control (AZ30-EB17)",
-    "factor": 1,
-    "size": "u8",
-    "name": "forced-control-az30-eb17-45027",
-    "write": true
-  },
   "40906": {
     "title": "Climate system 5",
     "factor": 1,
@@ -4158,6 +4222,26 @@
     "max": 1.0,
     "default": 0.0,
     "name": "ers-1-40934",
+    "write": true
+  },
+  "45296": {
+    "title": "blockFreq 2 (EB101)",
+    "factor": 1,
+    "size": "u8",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.0,
+    "name": "blockfreq-2-eb101-45296",
+    "write": true
+  },
+  "45297": {
+    "title": "blockFreq 1 (EB101)",
+    "factor": 1,
+    "size": "u8",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.0,
+    "name": "blockfreq-1-eb101-45297",
     "write": true
   },
   "40949": {
@@ -4282,59 +4366,6 @@
     "max": 60.0,
     "default": 20.0,
     "name": "room-sensor-factor-climate-system-5-40960",
-    "write": true
-  },
-  "40968": {
-    "title": "Cooling curve climate system 1",
-    "factor": 1,
-    "size": "s8",
-    "min": 0.0,
-    "max": 9.0,
-    "default": 0.0,
-    "name": "cooling-curve-climate-system-1-40968",
-    "write": true
-  },
-  "40976": {
-    "title": "Cooling offset climate system 1",
-    "factor": 1,
-    "size": "s8",
-    "min": -10.0,
-    "max": 10.0,
-    "default": 0.0,
-    "name": "cooling-offset-climate-system-1-40976",
-    "write": true
-  },
-  "40977": {
-    "title": "Own curve, cooling P4",
-    "factor": 1,
-    "unit": "\u00b0C",
-    "size": "s8",
-    "min": 7.0,
-    "max": 40.0,
-    "default": 20.0,
-    "name": "own-curve-cooling-p4-40977",
-    "write": true
-  },
-  "40978": {
-    "title": "Own curve, cooling P2",
-    "factor": 1,
-    "unit": "\u00b0C",
-    "size": "s8",
-    "min": 7.0,
-    "max": 40.0,
-    "default": 20.0,
-    "name": "own-curve-cooling-p2-40978",
-    "write": true
-  },
-  "40979": {
-    "title": "Own curve, cooling P1",
-    "factor": 1,
-    "unit": "\u00b0C",
-    "size": "s8",
-    "min": 7.0,
-    "max": 40.0,
-    "default": 20.0,
-    "name": "own-curve-cooling-p1-40979",
     "write": true
   },
   "40981": {
@@ -4536,27 +4567,6 @@
     "name": "hts-1-40999",
     "write": true
   },
-  "41016": {
-    "title": "OPT",
-    "factor": 1,
-    "size": "u8",
-    "min": 0.0,
-    "max": 1.0,
-    "default": 0.0,
-    "name": "opt-41016",
-    "write": true
-  },
-  "41017": {
-    "title": "DM start difference (OPT)",
-    "factor": 1,
-    "unit": "DM",
-    "size": "s16",
-    "min": 10.0,
-    "max": 2000.0,
-    "default": 700.0,
-    "name": "dm-start-difference-opt-41017",
-    "write": true
-  },
   "41022": {
     "title": "Exhaust air fan speed 4 (ERS 1)",
     "factor": 1,
@@ -4633,72 +4643,6 @@
     "name": "pump-speed-s135-41037",
     "write": true
   },
-  "41039": {
-    "title": "Supply air fan speed 4 (ERS 1)",
-    "factor": 1,
-    "unit": "%",
-    "size": "u8",
-    "min": 0.0,
-    "max": 100.0,
-    "default": 100.0,
-    "name": "supply-air-fan-speed-4-ers-1-41039",
-    "write": true
-  },
-  "41040": {
-    "title": "Supply air fan speed 3 (ERS 1)",
-    "factor": 1,
-    "unit": "%",
-    "size": "u8",
-    "min": 0.0,
-    "max": 100.0,
-    "default": 80.0,
-    "name": "supply-air-fan-speed-3-ers-1-41040",
-    "write": true
-  },
-  "41041": {
-    "title": "Supply air fan speed 2 (ERS 1)",
-    "factor": 1,
-    "unit": "%",
-    "size": "u8",
-    "min": 0.0,
-    "max": 100.0,
-    "default": 30.0,
-    "name": "supply-air-fan-speed-2-ers-1-41041",
-    "write": true
-  },
-  "41042": {
-    "title": "Supply air fan speed 1 (ERS 1)",
-    "factor": 1,
-    "unit": "%",
-    "size": "u8",
-    "min": 0.0,
-    "max": 100.0,
-    "default": 0.0,
-    "name": "supply-air-fan-speed-1-ers-1-41042",
-    "write": true
-  },
-  "41043": {
-    "title": "Supply air fan speed normal (ERS 1)",
-    "factor": 1,
-    "unit": "%",
-    "size": "u8",
-    "min": 1.0,
-    "max": 100.0,
-    "default": 60.0,
-    "name": "supply-air-fan-speed-normal-ers-1-41043",
-    "write": true
-  },
-  "41044": {
-    "title": "Min. vent temp. (ERS 1)",
-    "factor": 1,
-    "unit": "\u00b0C",
-    "size": "u8",
-    "min": 0.0,
-    "max": 10.0,
-    "default": 3.0,
-    "name": "min-vent-temp-ers-1-41044",
-    "write": true
-  },
   "41045": {
     "title": "Bypass temp. (ERS 1)",
     "factor": 1,
@@ -4730,16 +4674,6 @@
     "name": "external-cooling-accessory-pump-type-41047",
     "write": true
   },
-  "41032": {
-    "title": "Flow sensor activated X21",
-    "factor": 1,
-    "size": "u8",
-    "min": 0.0,
-    "max": 1.0,
-    "default": 0.0,
-    "name": "flow-sensor-activated-x21-41032",
-    "write": true
-  },
   "41050": {
     "title": "Flow sensor activated X22",
     "factor": 1,
@@ -4759,26 +4693,6 @@
     "max": 900.0,
     "default": 900.0,
     "name": "max-internal-additional-heat-sg-ready-41053",
-    "write": true
-  },
-  "41067": {
-    "title": "Hysteresis (OPT)",
-    "factor": 1,
-    "size": "s16",
-    "min": 10.0,
-    "max": 2000.0,
-    "default": 100.0,
-    "name": "hysteresis-opt-41067",
-    "write": true
-  },
-  "41069": {
-    "title": "Activated (EME10)",
-    "factor": 1,
-    "size": "u8",
-    "min": 0.0,
-    "max": 1.0,
-    "default": 0.0,
-    "name": "activated-eme10-41069",
     "write": true
   },
   "41070": {
@@ -4808,13 +4722,6 @@
     "name": "delay-timer-eme-41072",
     "write": true
   },
-  "41096": {
-    "title": "AUX blocking (OPT)",
-    "factor": 1,
-    "size": "u8",
-    "name": "aux-blocking-opt-41096",
-    "write": true
-  },
   "41097": {
     "title": "Outdoor air mixing",
     "factor": 1,
@@ -4823,16 +4730,6 @@
     "max": 1.0,
     "default": 0.0,
     "name": "outdoor-air-mixing-41097",
-    "write": true
-  },
-  "41103": {
-    "title": "Smart home room control",
-    "factor": 1,
-    "size": "u8",
-    "min": 0.0,
-    "max": 1.0,
-    "default": 0.0,
-    "name": "smart-home-room-control-41103",
     "write": true
   },
   "41106": {
@@ -4935,26 +4832,6 @@
     "name": "el-price-fixed-smart-energy-source-41115",
     "write": true
   },
-  "41116": {
-    "title": "El. price, smart energy source",
-    "factor": 1,
-    "size": "u8",
-    "min": 0.0,
-    "max": 1.0,
-    "default": 0.0,
-    "name": "el-price-smart-energy-source-41116",
-    "write": true
-  },
-  "41117": {
-    "title": "El. price, fixed, smart energy source",
-    "factor": 1,
-    "size": "u16",
-    "min": 0.0,
-    "max": 10000.0,
-    "default": 100.0,
-    "name": "el-price-fixed-smart-energy-source-41117",
-    "write": true
-  },
   "41118": {
     "title": "Prim. factor, smart energy source",
     "factor": 10,
@@ -4983,36 +4860,6 @@
     "max": 50.0,
     "default": 10.0,
     "name": "prim-factor-ext-step-add-heat-smart-energy-source-41120",
-    "write": true
-  },
-  "41121": {
-    "title": "Prim. factor, OPT10 smart energy source",
-    "factor": 10,
-    "size": "u8",
-    "min": 0.0,
-    "max": 50.0,
-    "default": 10.0,
-    "name": "prim-factor-opt10-smart-energy-source-41121",
-    "write": true
-  },
-  "41122": {
-    "title": "OPT10, high tariff price smart energy source",
-    "factor": 1,
-    "size": "u16",
-    "min": 1.0,
-    "max": 10000.0,
-    "default": 100.0,
-    "name": "opt10-high-tariff-price-smart-energy-source-41122",
-    "write": true
-  },
-  "41123": {
-    "title": "OPT10, low tariff price smart energy source",
-    "factor": 1,
-    "size": "u16",
-    "min": 1.0,
-    "max": 10000.0,
-    "default": 100.0,
-    "name": "opt10-low-tariff-price-smart-energy-source-41123",
     "write": true
   },
   "41124": {
@@ -5225,46 +5072,6 @@
     "name": "end-month-fixed-tariff-smart-energy-source-41176",
     "write": true
   },
-  "41209": {
-    "title": "Start day, tariff OPT10 smart energy source",
-    "factor": 1,
-    "size": "u8",
-    "min": 1.0,
-    "max": 31.0,
-    "default": 1.0,
-    "name": "start-day-tariff-opt10-smart-energy-source-41209",
-    "write": true
-  },
-  "41210": {
-    "title": "End day, tariff OPT10 smart energy source",
-    "factor": 1,
-    "size": "u8",
-    "min": 1.0,
-    "max": 31.0,
-    "default": 31.0,
-    "name": "end-day-tariff-opt10-smart-energy-source-41210",
-    "write": true
-  },
-  "41211": {
-    "title": "Start month, tariff OPT10 smart energy source",
-    "factor": 1,
-    "size": "u8",
-    "min": 1.0,
-    "max": 12.0,
-    "default": 1.0,
-    "name": "start-month-tariff-opt10-smart-energy-source-41211",
-    "write": true
-  },
-  "41212": {
-    "title": "End month, tariff OPT10 smart energy source",
-    "factor": 1,
-    "size": "u8",
-    "min": 1.0,
-    "max": 12.0,
-    "default": 12.0,
-    "name": "end-month-tariff-opt10-smart-energy-source-41212",
-    "write": true
-  },
   "41245": {
     "title": "Start day tariff, shunt additional heat smart energy source",
     "factor": 1,
@@ -5377,28 +5184,6 @@
     "name": "max-difference-ses-lower-priority-energy-source-41328",
     "write": true
   },
-  "45030": {
-    "title": "Forced control (AZ30-GQ2)",
-    "factor": 1,
-    "unit": "%",
-    "size": "u8",
-    "min": 0.0,
-    "max": 100.0,
-    "default": 50.0,
-    "name": "forced-control-az30-gq2-45030",
-    "write": true
-  },
-  "45031": {
-    "title": "Forced control (AZ30-GQ3)",
-    "factor": 1,
-    "unit": "%",
-    "size": "u8",
-    "min": 0.0,
-    "max": 100.0,
-    "default": 50.0,
-    "name": "forced-control-az30-gq3-45031",
-    "write": true
-  },
   "41551": {
     "title": "Installed (EB101)",
     "factor": 1,
@@ -5426,22 +5211,12 @@
     "size": "u32",
     "name": "current-power-32177"
   },
-  "44006": {
-    "title": "PV panel affects pool (EME)",
-    "factor": 1,
-    "size": "u8",
-    "min": 0.0,
-    "max": 1.0,
-    "default": 0.0,
-    "name": "pv-panel-affects-pool-eme-44006",
-    "write": true
-  },
   "32179": {
-    "title": "Total average power (EME 20)",
+    "title": "Total average power (Solar PV)",
     "factor": 100,
     "unit": "kW",
     "size": "u32",
-    "name": "total-average-power-eme-20-32179"
+    "name": "total-average-power-solar-pv-32179"
   },
   "32181": {
     "title": "Total energy",
@@ -5450,28 +5225,24 @@
     "size": "s32",
     "name": "total-energy-32181"
   },
-  "33822": {
-    "title": "Tot. production",
-    "factor": 10,
-    "unit": "kWh",
-    "size": "u32",
-    "name": "tot-production-33822"
-  },
-  "33824": {
-    "title": "Tot. consumption",
-    "factor": 10,
-    "unit": "kWh",
-    "size": "u32",
-    "name": "tot-consumption-33824"
-  },
-  "44019": {
-    "title": "External energy meter 2 pulse per kWh",
+  "44016": {
+    "title": "Mode, energy meter (BE6)",
     "factor": 1,
-    "size": "u16",
-    "min": 1.0,
-    "max": 10000.0,
-    "default": 500.0,
-    "name": "external-energy-meter-2-pulse-per-kwh-44019",
+    "size": "u8",
+    "min": 0.0,
+    "max": 255.0,
+    "default": 255.0,
+    "name": "mode-energy-meter-be6-44016",
+    "write": true
+  },
+  "44017": {
+    "title": "Mode, energy meter (BE7)",
+    "factor": 1,
+    "size": "u8",
+    "min": 0.0,
+    "max": 255.0,
+    "default": 255.0,
+    "name": "mode-energy-meter-be7-44017",
     "write": true
   },
   "44077": {
@@ -5504,26 +5275,21 @@
     "name": "ers-4-44079",
     "write": true
   },
-  "44086": {
-    "title": "Bypass set point value (ERS 1)",
-    "factor": 1,
-    "unit": "\u00b0C",
-    "size": "u8",
-    "min": 5.0,
-    "max": 30.0,
-    "default": 25.0,
-    "name": "bypass-set-point-value-ers-1-44086",
-    "write": true
-  },
-  "44090": {
-    "title": "Bypass during heating (ERS 1)",
+  "44128": {
+    "title": "Mode, energy meter (BE11)",
     "factor": 1,
     "size": "u8",
     "min": 0.0,
-    "max": 1.0,
-    "default": 0.0,
-    "name": "bypass-during-heating-ers-1-44090",
+    "max": 255.0,
+    "default": 255.0,
+    "name": "mode-energy-meter-be11-44128",
     "write": true
+  },
+  "32455": {
+    "title": "External addition steps active",
+    "factor": 1,
+    "size": "u8",
+    "name": "external-addition-steps-active-32455"
   },
   "41982": {
     "title": "HTS 2",
@@ -5723,23 +5489,6 @@
     "name": "external-adjustment-with-room-sensor-cooling-climate-system-1-44154",
     "write": true
   },
-  "44068": {
-    "title": "Demand controlled ventilation",
-    "factor": 1,
-    "size": "u8",
-    "min": 0.0,
-    "max": 1.0,
-    "default": 0.0,
-    "name": "demand-controlled-ventilation-44068",
-    "write": true
-  },
-  "32728": {
-    "title": "Current power",
-    "factor": 100,
-    "unit": "kW",
-    "size": "u32",
-    "name": "current-power-32728"
-  },
   "44165": {
     "title": "blockFreq 1 (EB102)",
     "factor": 1,
@@ -5820,16 +5569,6 @@
     "name": "power-at-dot-manual-value-44201",
     "write": true
   },
-  "44095": {
-    "title": "ERS 1",
-    "factor": 1,
-    "size": "u8",
-    "min": 0.0,
-    "max": 1.0,
-    "default": 1.0,
-    "name": "ers-1-44095",
-    "write": true
-  },
   "44101": {
     "title": "Blocking actions (ERS 3)",
     "factor": 1,
@@ -5848,27 +5587,6 @@
     "max": 2.0,
     "default": 2.0,
     "name": "blocking-actions-ers-4-44102",
-    "write": true
-  },
-  "42956": {
-    "title": "Night cooling 1",
-    "factor": 1,
-    "size": "u8",
-    "min": 0.0,
-    "max": 1.0,
-    "default": 0.0,
-    "name": "night-cooling-1-42956",
-    "write": true
-  },
-  "42943": {
-    "title": "Start temperature night cooling 1",
-    "factor": 1,
-    "unit": "\u00b0C",
-    "size": "u8",
-    "min": 20.0,
-    "max": 30.0,
-    "default": 25.0,
-    "name": "start-temperature-night-cooling-1-42943",
     "write": true
   },
   "42944": {
@@ -5935,6 +5653,17 @@
     "name": "minimum-permitted-speed-eb101-gp12-45353",
     "write": true
   },
+  "45354": {
+    "title": "Minimum permitted speed (EB102 GP12)",
+    "factor": 1,
+    "unit": "%",
+    "size": "u8",
+    "min": 1.0,
+    "max": 50.0,
+    "default": 1.0,
+    "name": "minimum-permitted-speed-eb102-gp12-45354",
+    "write": true
+  },
   "45361": {
     "title": "Start fan de-icing (EB101)",
     "factor": 1,
@@ -5945,11 +5674,14 @@
     "name": "start-fan-de-icing-eb101-45361",
     "write": true
   },
-  "45392": {
-    "title": "Increased ventilation 1",
+  "45369": {
+    "title": "Defrost Requested EB101",
     "factor": 1,
-    "size": "u8",
-    "name": "increased-ventilation-1-45392",
+    "size": "s8",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.0,
+    "name": "defrost-requested-eb101-45369",
     "write": true
   },
   "40177": {
@@ -6032,6 +5764,13 @@
     "name": "system-4-rmu-42002",
     "write": true
   },
+  "45391": {
+    "title": "Away mode status",
+    "factor": 1,
+    "size": "u8",
+    "name": "away-mode-status-45391",
+    "write": true
+  },
   "42743": {
     "title": "The start guide has been run",
     "factor": 1,
@@ -6073,27 +5812,6 @@
     "name": "bt12-offset-heat-pump-1-45329",
     "write": true
   },
-  "43032": {
-    "title": "Alarm room sens cool oper",
-    "factor": 1,
-    "size": "u8",
-    "min": 0.0,
-    "max": 1.0,
-    "default": 0.0,
-    "name": "alarm-room-sens-cool-oper-43032",
-    "write": true
-  },
-  "43041": {
-    "title": "Desired charge power pool 1 heat pump 1",
-    "factor": 1,
-    "unit": "kW",
-    "size": "u8",
-    "min": 1.0,
-    "max": 100.0,
-    "default": 6.0,
-    "name": "desired-charge-power-pool-1-heat-pump-1-43041",
-    "write": true
-  },
   "43060": {
     "title": "Heating, auto",
     "factor": 1,
@@ -6104,14 +5822,14 @@
     "name": "heating-auto-43060",
     "write": true
   },
-  "43061": {
-    "title": "Cooling, auto",
+  "43033": {
+    "title": "Activate SG Ready via API",
     "factor": 1,
     "size": "u8",
     "min": 0.0,
     "max": 1.0,
-    "default": 1.0,
-    "name": "cooling-auto-43061",
+    "default": 0.0,
+    "name": "activate-sg-ready-via-api-43033",
     "write": true
   },
   "43034": {
@@ -6124,32 +5842,12 @@
     "name": "factor-43034",
     "write": true
   },
-  "32252": {
-    "title": "Fan speed ERS1 (GQ2)",
-    "factor": 1,
-    "unit": "%",
-    "size": "u8",
-    "name": "fan-speed-ers1-gq2-32252"
-  },
-  "32253": {
-    "title": "Fan speed ERS1 (GQ3)",
-    "factor": 1,
-    "unit": "%",
-    "size": "u8",
-    "name": "fan-speed-ers1-gq3-32253"
-  },
   "32015": {
     "title": "Hot water start (BT5)",
     "factor": 10,
     "unit": "\u00b0C",
     "size": "s16",
     "name": "hot-water-start-bt5-32015"
-  },
-  "32129": {
-    "title": "Pump: Heating medium (GP6)",
-    "factor": 1,
-    "size": "u8",
-    "name": "pump-heating-medium-gp6-32129"
   },
   "43089": {
     "title": "Period",
@@ -6267,95 +5965,95 @@
     "write": true
   },
   "42668": {
-    "title": "Offset cooling (EME20)",
+    "title": "Offset cooling (Solar PV)",
     "factor": 1,
     "size": "s8",
     "min": -10.0,
     "max": 0.0,
     "default": -1.0,
-    "name": "offset-cooling-eme20-42668",
+    "name": "offset-cooling-solar-pv-42668",
     "write": true
   },
   "42669": {
-    "title": "Offset heating (EME20)",
+    "title": "Offset heating (Solar PV)",
     "factor": 1,
     "size": "u8",
     "min": 0.0,
     "max": 10.0,
     "default": 1.0,
-    "name": "offset-heating-eme20-42669",
+    "name": "offset-heating-solar-pv-42669",
     "write": true
   },
   "42670": {
-    "title": "Offset pool (EME20)",
+    "title": "Offset pool (Solar PV)",
     "factor": 1,
     "unit": "\u00b0C",
     "size": "u8",
     "min": 0.0,
     "max": 10.0,
     "default": 10.0,
-    "name": "offset-pool-eme20-42670",
+    "name": "offset-pool-solar-pv-42670",
     "write": true
   },
   "42667": {
-    "title": "Cooling (EME20)",
+    "title": "Cooling (Solar PV)",
     "factor": 1,
     "size": "u8",
     "min": 0.0,
     "max": 1.0,
     "default": 0.0,
-    "name": "cooling-eme20-42667",
+    "name": "cooling-solar-pv-42667",
     "write": true
   },
   "42676": {
-    "title": "AUX (EME20)",
+    "title": "AUX (Solar PV)",
     "factor": 1,
     "size": "u8",
     "min": 0.0,
     "max": 1.0,
     "default": 0.0,
-    "name": "aux-eme20-42676",
+    "name": "aux-solar-pv-42676",
     "write": true
   },
   "40001": {
-    "title": "Temperature, Overload, pool",
+    "title": "Temperature overcharging pool",
     "factor": 1,
     "unit": "\u00b0C",
     "size": "u8",
     "min": 1.0,
     "max": 50.0,
     "default": 1.0,
-    "name": "temperature-overload-pool-40001",
+    "name": "temperature-overcharging-pool-40001",
     "write": true
   },
   "42108": {
-    "title": "EME20 API",
+    "title": "Modbus TCP/IP Ext. (Solar PV)",
     "factor": 1,
     "size": "u8",
     "min": 0.0,
     "max": 1.0,
     "default": 0.0,
-    "name": "eme20-api-42108",
+    "name": "modbus-tcp-ip-ext-solar-pv-42108",
     "write": true
   },
   "42109": {
-    "title": "EME20 API Include own consumption",
+    "title": "Modbus TCP/IP Ext.Include own consumption (Solar PV)",
     "factor": 1,
     "size": "u8",
     "min": 0.0,
     "max": 1.0,
     "default": 0.0,
-    "name": "eme20-api-include-own-consumption-42109",
+    "name": "modbus-tcp-ip-ext-include-own-consumption-solar-pv-42109",
     "write": true
   },
   "42110": {
-    "title": "EME20 API Available power",
+    "title": "Modbus TCP/IP Ext. Available power (Solar PV)",
     "factor": 1,
     "size": "u16",
     "min": 0.0,
     "max": 65535.0,
     "default": 0.0,
-    "name": "eme20-api-available-power-42110",
+    "name": "modbus-tcp-ip-ext-available-power-solar-pv-42110",
     "write": true
   },
   "42112": {
@@ -6838,6 +6536,406 @@
     "name": "zone-40-affected-by-ecs1-42159",
     "write": true
   },
+  "42160": {
+    "title": "Zone 1 affected by ECS2",
+    "factor": 1,
+    "size": "u8",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.0,
+    "name": "zone-1-affected-by-ecs2-42160",
+    "write": true
+  },
+  "42161": {
+    "title": "Zone 2 affected by ECS2",
+    "factor": 1,
+    "size": "u8",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.0,
+    "name": "zone-2-affected-by-ecs2-42161",
+    "write": true
+  },
+  "42162": {
+    "title": "Zone 3 affected by ECS2",
+    "factor": 1,
+    "size": "u8",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.0,
+    "name": "zone-3-affected-by-ecs2-42162",
+    "write": true
+  },
+  "42163": {
+    "title": "Zone 4 affected by ECS2",
+    "factor": 1,
+    "size": "u8",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.0,
+    "name": "zone-4-affected-by-ecs2-42163",
+    "write": true
+  },
+  "42164": {
+    "title": "Zone 5 affected by ECS2",
+    "factor": 1,
+    "size": "u8",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.0,
+    "name": "zone-5-affected-by-ecs2-42164",
+    "write": true
+  },
+  "42165": {
+    "title": "Zone 6 affected by ECS2",
+    "factor": 1,
+    "size": "u8",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.0,
+    "name": "zone-6-affected-by-ecs2-42165",
+    "write": true
+  },
+  "42166": {
+    "title": "Zone 7 affected by ECS2",
+    "factor": 1,
+    "size": "u8",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.0,
+    "name": "zone-7-affected-by-ecs2-42166",
+    "write": true
+  },
+  "42167": {
+    "title": "Zone 8 affected by ECS2",
+    "factor": 1,
+    "size": "u8",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.0,
+    "name": "zone-8-affected-by-ecs2-42167",
+    "write": true
+  },
+  "42168": {
+    "title": "Zone 9 affected by ECS2",
+    "factor": 1,
+    "size": "u8",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.0,
+    "name": "zone-9-affected-by-ecs2-42168",
+    "write": true
+  },
+  "42169": {
+    "title": "Zone 10 affected by ECS2",
+    "factor": 1,
+    "size": "u8",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.0,
+    "name": "zone-10-affected-by-ecs2-42169",
+    "write": true
+  },
+  "42170": {
+    "title": "Zone 11 affected by ECS2",
+    "factor": 1,
+    "size": "u8",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.0,
+    "name": "zone-11-affected-by-ecs2-42170",
+    "write": true
+  },
+  "42171": {
+    "title": "Zone 12 affected by ECS2",
+    "factor": 1,
+    "size": "u8",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.0,
+    "name": "zone-12-affected-by-ecs2-42171",
+    "write": true
+  },
+  "42172": {
+    "title": "Zone 13 affected by ECS2",
+    "factor": 1,
+    "size": "u8",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.0,
+    "name": "zone-13-affected-by-ecs2-42172",
+    "write": true
+  },
+  "42173": {
+    "title": "Zone 14 affected by ECS2",
+    "factor": 1,
+    "size": "u8",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.0,
+    "name": "zone-14-affected-by-ecs2-42173",
+    "write": true
+  },
+  "42174": {
+    "title": "Zone 15 affected by ECS2",
+    "factor": 1,
+    "size": "u8",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.0,
+    "name": "zone-15-affected-by-ecs2-42174",
+    "write": true
+  },
+  "42175": {
+    "title": "Zone 16 affected by ECS2",
+    "factor": 1,
+    "size": "u8",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.0,
+    "name": "zone-16-affected-by-ecs2-42175",
+    "write": true
+  },
+  "42176": {
+    "title": "Zone 17 affected by ECS2",
+    "factor": 1,
+    "size": "u8",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.0,
+    "name": "zone-17-affected-by-ecs2-42176",
+    "write": true
+  },
+  "42177": {
+    "title": "Zone 18 affected by ECS2",
+    "factor": 1,
+    "size": "u8",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.0,
+    "name": "zone-18-affected-by-ecs2-42177",
+    "write": true
+  },
+  "42178": {
+    "title": "Zone 19 affected by ECS2",
+    "factor": 1,
+    "size": "u8",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.0,
+    "name": "zone-19-affected-by-ecs2-42178",
+    "write": true
+  },
+  "42179": {
+    "title": "Zone 20 affected by ECS2",
+    "factor": 1,
+    "size": "u8",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.0,
+    "name": "zone-20-affected-by-ecs2-42179",
+    "write": true
+  },
+  "42180": {
+    "title": "Zone 21 affected by ECS2",
+    "factor": 1,
+    "size": "u8",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.0,
+    "name": "zone-21-affected-by-ecs2-42180",
+    "write": true
+  },
+  "42181": {
+    "title": "Zone 22 affected by ECS2",
+    "factor": 1,
+    "size": "u8",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.0,
+    "name": "zone-22-affected-by-ecs2-42181",
+    "write": true
+  },
+  "42182": {
+    "title": "Zone 23 affected by ECS2",
+    "factor": 1,
+    "size": "u8",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.0,
+    "name": "zone-23-affected-by-ecs2-42182",
+    "write": true
+  },
+  "42183": {
+    "title": "Zone 24 affected by ECS2",
+    "factor": 1,
+    "size": "u8",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.0,
+    "name": "zone-24-affected-by-ecs2-42183",
+    "write": true
+  },
+  "42184": {
+    "title": "Zone 25 affected by ECS2",
+    "factor": 1,
+    "size": "u8",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.0,
+    "name": "zone-25-affected-by-ecs2-42184",
+    "write": true
+  },
+  "42185": {
+    "title": "Zone 26 affected by ECS2",
+    "factor": 1,
+    "size": "u8",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.0,
+    "name": "zone-26-affected-by-ecs2-42185",
+    "write": true
+  },
+  "42186": {
+    "title": "Zone 27 affected by ECS2",
+    "factor": 1,
+    "size": "u8",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.0,
+    "name": "zone-27-affected-by-ecs2-42186",
+    "write": true
+  },
+  "42187": {
+    "title": "Zone 28 affected by ECS2",
+    "factor": 1,
+    "size": "u8",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.0,
+    "name": "zone-28-affected-by-ecs2-42187",
+    "write": true
+  },
+  "42188": {
+    "title": "Zone 29 affected by ECS2",
+    "factor": 1,
+    "size": "u8",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.0,
+    "name": "zone-29-affected-by-ecs2-42188",
+    "write": true
+  },
+  "42189": {
+    "title": "Zone 30 affected by ECS2",
+    "factor": 1,
+    "size": "u8",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.0,
+    "name": "zone-30-affected-by-ecs2-42189",
+    "write": true
+  },
+  "42190": {
+    "title": "Zone 31 affected by ECS2",
+    "factor": 1,
+    "size": "u8",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.0,
+    "name": "zone-31-affected-by-ecs2-42190",
+    "write": true
+  },
+  "42191": {
+    "title": "Zone 32 affected by ECS2",
+    "factor": 1,
+    "size": "u8",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.0,
+    "name": "zone-32-affected-by-ecs2-42191",
+    "write": true
+  },
+  "42192": {
+    "title": "Zone 33 affected by ECS2",
+    "factor": 1,
+    "size": "u8",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.0,
+    "name": "zone-33-affected-by-ecs2-42192",
+    "write": true
+  },
+  "42193": {
+    "title": "Zone 34 affected by ECS2",
+    "factor": 1,
+    "size": "u8",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.0,
+    "name": "zone-34-affected-by-ecs2-42193",
+    "write": true
+  },
+  "42194": {
+    "title": "Zone 35 affected by ECS2",
+    "factor": 1,
+    "size": "u8",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.0,
+    "name": "zone-35-affected-by-ecs2-42194",
+    "write": true
+  },
+  "42195": {
+    "title": "Zone 36 affected by ECS2",
+    "factor": 1,
+    "size": "u8",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.0,
+    "name": "zone-36-affected-by-ecs2-42195",
+    "write": true
+  },
+  "42196": {
+    "title": "Zone 37 affected by ECS2",
+    "factor": 1,
+    "size": "u8",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.0,
+    "name": "zone-37-affected-by-ecs2-42196",
+    "write": true
+  },
+  "42197": {
+    "title": "Zone 38 affected by ECS2",
+    "factor": 1,
+    "size": "u8",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.0,
+    "name": "zone-38-affected-by-ecs2-42197",
+    "write": true
+  },
+  "42198": {
+    "title": "Zone 39 affected by ECS2",
+    "factor": 1,
+    "size": "u8",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.0,
+    "name": "zone-39-affected-by-ecs2-42198",
+    "write": true
+  },
+  "42199": {
+    "title": "Zone 40 affected by ECS2",
+    "factor": 1,
+    "size": "u8",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.0,
+    "name": "zone-40-affected-by-ecs2-42199",
+    "write": true
+  },
   "42440": {
     "title": "Input on ECS1 affects ECS1",
     "factor": 1,
@@ -6916,6 +7014,86 @@
     "max": 1.0,
     "default": 0.0,
     "name": "input-on-ecs1-affects-ecs8-42447",
+    "write": true
+  },
+  "42448": {
+    "title": "Input on ECS2 affects ECS1",
+    "factor": 1,
+    "size": "u8",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.0,
+    "name": "input-on-ecs2-affects-ecs1-42448",
+    "write": true
+  },
+  "42449": {
+    "title": "Input on ECS2 affects ECS2",
+    "factor": 1,
+    "size": "u8",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.0,
+    "name": "input-on-ecs2-affects-ecs2-42449",
+    "write": true
+  },
+  "42450": {
+    "title": "Input on ECS2 affects ECS3",
+    "factor": 1,
+    "size": "u8",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.0,
+    "name": "input-on-ecs2-affects-ecs3-42450",
+    "write": true
+  },
+  "42451": {
+    "title": "Input on ECS2 affects ECS4",
+    "factor": 1,
+    "size": "u8",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.0,
+    "name": "input-on-ecs2-affects-ecs4-42451",
+    "write": true
+  },
+  "42452": {
+    "title": "Input on ECS2 affects ECS5",
+    "factor": 1,
+    "size": "u8",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.0,
+    "name": "input-on-ecs2-affects-ecs5-42452",
+    "write": true
+  },
+  "42453": {
+    "title": "Input on ECS2 affects ECS6",
+    "factor": 1,
+    "size": "u8",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.0,
+    "name": "input-on-ecs2-affects-ecs6-42453",
+    "write": true
+  },
+  "42454": {
+    "title": "Input on ECS2 affects ECS7",
+    "factor": 1,
+    "size": "u8",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.0,
+    "name": "input-on-ecs2-affects-ecs7-42454",
+    "write": true
+  },
+  "42455": {
+    "title": "Input on ECS2 affects ECS8",
+    "factor": 1,
+    "size": "u8",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.0,
+    "name": "input-on-ecs2-affects-ecs8-42455",
     "write": true
   },
   "42504": {
@@ -7195,7 +7373,7 @@
     "factor": 1,
     "size": "u8",
     "min": 0.0,
-    "max": 67.0,
+    "max": 69.0,
     "default": 0.0,
     "name": "aux-from-modbus-42741",
     "write": true
@@ -7225,16 +7403,6 @@
     "max": 255.0,
     "default": 255.0,
     "name": "last-defrost-heat-pump-1-32159"
-  },
-  "42761": {
-    "title": "Permit additional heat, Pool 1",
-    "factor": 1,
-    "size": "u8",
-    "min": 0.0,
-    "max": 1.0,
-    "default": 0.0,
-    "name": "permit-additional-heat-pool-1-42761",
-    "write": true
   },
   "42821": {
     "title": "ERS 2",
@@ -7448,6 +7616,23 @@
     "name": "disable-emergency-restart-gp1-45026",
     "write": true
   },
+  "45009": {
+    "title": "Modbus external control",
+    "factor": 1,
+    "size": "u8",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.0,
+    "name": "modbus-external-control-45009",
+    "write": true
+  },
+  "32243": {
+    "title": "Pp sp. heating medium GP1",
+    "factor": 1,
+    "unit": "%",
+    "size": "u8",
+    "name": "pp-sp-heating-medium-gp1-32243"
+  },
   "30001": {
     "title": "Relay status",
     "factor": 1,
@@ -7468,20 +7653,6 @@
     "size": "u32",
     "name": "energy-log-produced-energy-for-hot-water-over-the-past-hour-32286"
   },
-  "32288": {
-    "title": "Energy log - Produced energy for pool over the past hour",
-    "factor": 100,
-    "unit": "kWh",
-    "size": "u32",
-    "name": "energy-log-produced-energy-for-pool-over-the-past-hour-32288"
-  },
-  "32290": {
-    "title": "Energy log - Produced energy for cooling over the past hour",
-    "factor": 100,
-    "unit": "kWh",
-    "size": "u32",
-    "name": "energy-log-produced-energy-for-cooling-over-the-past-hour-32290"
-  },
   "32292": {
     "title": "Energy log - Used energy for heating over the past hour",
     "factor": 100,
@@ -7496,20 +7667,6 @@
     "size": "u32",
     "name": "energy-log-used-energy-for-hot-water-over-the-past-hour-32294"
   },
-  "32296": {
-    "title": "Energy log - Used energy for pool over the past hour",
-    "factor": 100,
-    "unit": "kWh",
-    "size": "u32",
-    "name": "energy-log-used-energy-for-pool-over-the-past-hour-32296"
-  },
-  "32298": {
-    "title": "Energy log - Used energy for cooling over the past hour",
-    "factor": 100,
-    "unit": "kWh",
-    "size": "u32",
-    "name": "energy-log-used-energy-for-cooling-over-the-past-hour-32298"
-  },
   "32300": {
     "title": "Energy log - Used energy by additional heater for heating over the past hour",
     "factor": 100,
@@ -7523,13 +7680,6 @@
     "unit": "kWh",
     "size": "u32",
     "name": "energy-log-used-energy-by-additional-heater-for-hot-water-over-the-past-hour-32302"
-  },
-  "32304": {
-    "title": "Energy log - Used energy by additional heater for pool over the past hour",
-    "factor": 100,
-    "unit": "kWh",
-    "size": "u32",
-    "name": "energy-log-used-energy-by-additional-heater-for-pool-over-the-past-hour-32304"
   },
   "32306": {
     "title": "Energy log - Current power consumption",
@@ -7585,15 +7735,40 @@
     "default": 0.0,
     "name": "compressor-total-time-energy-storage-heat-pump-1-ep15-32342"
   },
-  "44205": {
-    "title": "Auto mode, start temperature for active cooling",
+  "45211": {
+    "title": "External reading of BT71 activated",
+    "factor": 1,
+    "size": "u8",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.0,
+    "name": "external-reading-of-bt71-activated-45211",
+    "write": true
+  },
+  "45217": {
+    "title": "External reading of BT52 activated",
+    "factor": 1,
+    "size": "u8",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.0,
+    "name": "external-reading-of-bt52-activated-45217",
+    "write": true
+  },
+  "45220": {
+    "title": "External reading of value BT71",
     "factor": 10,
     "unit": "\u00b0C",
     "size": "s16",
-    "min": 150.0,
-    "max": 400.0,
-    "default": 250.0,
-    "name": "auto-mode-start-temperature-for-active-cooling-44205",
+    "name": "external-reading-of-value-bt71-45220",
+    "write": true
+  },
+  "45226": {
+    "title": "External reading of value BT52",
+    "factor": 10,
+    "unit": "\u00b0C",
+    "size": "s16",
+    "name": "external-reading-of-value-bt52-45226",
     "write": true
   },
   "31586": {
@@ -7610,20 +7785,6 @@
     "size": "u32",
     "name": "hot-water-compressor-only-31584"
   },
-  "31582": {
-    "title": "Pool, compressor only",
-    "factor": 10,
-    "unit": "kWh",
-    "size": "u32",
-    "name": "pool-compressor-only-31582"
-  },
-  "31580": {
-    "title": "Cooling, compressor only",
-    "factor": 10,
-    "unit": "kWh",
-    "size": "u32",
-    "name": "cooling-compressor-only-31580"
-  },
   "31578": {
     "title": "Heating, including int. add. heat",
     "factor": 10,
@@ -7638,13 +7799,6 @@
     "size": "u32",
     "name": "hot-water-including-int-add-heat-31576"
   },
-  "32801": {
-    "title": "Temperature: BT50",
-    "factor": 10,
-    "unit": "\u00b0C",
-    "size": "s32",
-    "name": "temperature-bt50-32801"
-  },
   "33801": {
     "title": "Boiler temperature (BT52)",
     "factor": 10,
@@ -7652,12 +7806,86 @@
     "size": "s16",
     "name": "boiler-temperature-bt52-33801"
   },
+  "33822": {
+    "title": "Tot. production",
+    "factor": 10,
+    "unit": "kWh",
+    "size": "u32",
+    "name": "tot-production-33822"
+  },
+  "33824": {
+    "title": "Tot. consumption",
+    "factor": 10,
+    "unit": "kWh",
+    "size": "u32",
+    "name": "tot-consumption-33824"
+  },
+  "32728": {
+    "title": "Current power",
+    "factor": 100,
+    "unit": "kW",
+    "size": "u32",
+    "name": "current-power-32728"
+  },
+  "45997": {
+    "title": "Speed, circulation pump, standby mode (EB100)",
+    "factor": 1,
+    "unit": "%",
+    "size": "u8",
+    "min": 1.0,
+    "max": 100.0,
+    "default": 30.0,
+    "name": "speed-circulation-pump-standby-mode-eb100-45997",
+    "write": true
+  },
+  "46004": {
+    "title": "External reading of BT68 activated",
+    "factor": 1,
+    "size": "u8",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.0,
+    "name": "external-reading-of-bt68-activated-46004",
+    "write": true
+  },
+  "46005": {
+    "title": "External reading of value BT68",
+    "factor": 10,
+    "unit": "\u00b0C",
+    "size": "s16",
+    "name": "external-reading-of-value-bt68-46005",
+    "write": true
+  },
+  "46006": {
+    "title": "External reading of BT69 activated",
+    "factor": 1,
+    "size": "u8",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.0,
+    "name": "external-reading-of-bt69-activated-46006",
+    "write": true
+  },
+  "46007": {
+    "title": "External reading of value BT68",
+    "factor": 10,
+    "unit": "\u00b0C",
+    "size": "s16",
+    "name": "external-reading-of-value-bt68-46007",
+    "write": true
+  },
+  "33805": {
+    "title": "Priority",
+    "factor": 1,
+    "size": "u8",
+    "name": "priority-33805"
+  },
   "41556": {
     "title": "Input AUX7",
     "factor": 1,
     "size": "u8",
     "min": 0.0,
-    "max": 67.0,
+    "max": 69.0,
     "default": 0.0,
     "name": "input-aux7-41556",
     "write": true
@@ -7667,7 +7895,7 @@
     "factor": 1,
     "size": "u8",
     "min": 0.0,
-    "max": 67.0,
+    "max": 69.0,
     "default": 0.0,
     "name": "input-aux8-41557",
     "write": true
@@ -7677,7 +7905,7 @@
     "factor": 1,
     "size": "u8",
     "min": 0.0,
-    "max": 67.0,
+    "max": 69.0,
     "default": 0.0,
     "name": "input-aux9-41558",
     "write": true
@@ -7702,20 +7930,6 @@
     "default": 0.0,
     "name": "disable-emergency-restart-gp1-43987",
     "write": true
-  },
-  "32191": {
-    "title": "Return line (AZ2-BT69)",
-    "factor": 10,
-    "unit": "\u00b0C",
-    "size": "s16",
-    "name": "return-line-az2-bt69-32191"
-  },
-  "32192": {
-    "title": "Supply line (AZ2-BT68)",
-    "factor": 10,
-    "unit": "\u00b0C",
-    "size": "s16",
-    "name": "supply-line-az2-bt68-32192"
   },
   "32414": {
     "title": "EEV Control Mode (EB101)",
